@@ -25,12 +25,18 @@
 
 | Beschreibung          | Bild |
 | --------------------- | ---- |
-| wähle mit den Pfeiltasten die Datei _.bashrc_ aus                                                                    | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_07.jpeg"> |
-| mit ```F4``` wechselst du jetzt in den Editor ```mcedit```                                                           | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_08.jpeg"> |
-| suche die Zeile ```#force_color_prompts=yes``` und entferne ```#```                                                  | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_09.jpeg"> |
-| suche die Zeilen ```#alias dir='dir --color=auto'``` bzw. ```#alias vdir='vdir --color=auto'``` und entferne ```#``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_10.jpeg"> |
-| suche die Zeilen ```#alias ll= ...``` und folgende und erweitere/passe diese an:<br/>```alias ll='ls -aFlh'```<br/>```alias l='ls -aFlh'```<br/>```alias ..='cd ..'```<br/>```alias cd..='cd ..'``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_11.jpeg"> |
-| mit ```F10``` wird der Editor beendet und man wird zum speichern der Datei aufgefordert                              | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_12.jpeg"> |
+| wähle mit den Pfeiltasten die Datei _.bashrc_ aus                                                                                                                                                        | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_07.jpeg"> |
+| mit ```F4``` wechselst du jetzt in den Editor ```mcedit```                                                                                                                                               | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_08.jpeg"> |
+| suche die Zeile ```#force_color_prompts=yes``` und entferne ```#```                                                                                                                                      | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_09.jpeg"> |
+| suche die Zeilen ```#alias dir='dir --color=auto'``` bzw. ```#alias vdir='vdir --color=auto'``` und entferne ```#```                                                                                     | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_10.jpeg"> |
+| suche die Zeilen ```#alias ll= ...``` und folgende und erweitere/passe diese an:<br/>```alias ll='ls -aFlh'```<br/>```alias l='ls -aFlh'```<br/>```alias ..='cd ..'```<br/>```alias cd..='cd ..'```<br/> | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_11.jpeg"> |
+| mit ```F10``` wird der Editor beendet und man wird zum speichern der Datei aufgefordert                                                                                                                  | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_12.jpeg"> |
+
+Prompt vorher:
+<img width="70%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_13.jpeg">
+
+Prompt jetzt:
+<img width="70%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_14.jpeg">
 
 ---
 
