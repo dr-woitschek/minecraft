@@ -16,10 +16,10 @@
 | Beschreibung          | Bild |
 | --------------------- | ---- |
 | starte den Midnight Commander mit dem Befehl <br/> ```mc``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_01.jpeg"><img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_02.jpeg"> |
-| mit F9 in die Menüleiste wechseln in <br/> ```Optionen``` <br/> ```Configuration...``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_03.jpeg"> |
-| setze die Option <br/> ```[x] Use internal editor``` <br/> und beende den Dialog mit ```OK``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_04.jpeg"> |
-| mit F9 in die Menüleiste wechseln in <br/> ```Optionen``` <br/> ```Paneloptions...``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_05.jpeg"> |
-| setze die Option <br/> ```[x] Lynx-like motion``` <br/> und beende den Dialog mit ```OK``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_06.jpeg"> |
+| mit ```F9``` in die Menüleiste wechseln in <br/> ```Optionen``` <br/> ```Configuration...``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_03.jpeg"> |
+| setze die Option <br/> ```[x] Use internal editor``` <br/> und beende den Dialog mit ```OK``` <br/> Jetzt kann mit ```F4``` wird der interne Editor ```mcedit``` zum bearbeiten von Dateien benutzt werden. | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_04.jpeg"> |
+| mit ```F9``` in die Menüleiste wechseln in <br/> ```Optionen``` <br/> ```Paneloptions...``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_05.jpeg"> |
+| setze die Option <br/> ```[x] Lynx-like motion``` <br/> und beende den Dialog mit ```OK``` <br/> Mit den Pfeiltasten kann man jetzt durch die Ordnerstrukturen navigieren. | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/WoitschekAnpassung_06.jpeg"> |
 
 ---
 
@@ -28,3 +28,4 @@ _Weiterführende Informationen:_
 * [mc](https://wiki.ubuntuusers.de/Midnight_Commander/)
 * [net-tools\netstat](https://wiki.ubuntuusers.de/netstat/)
 * [net-tools](https://net-tools.sourceforge.io/)
+* [Lynx](https://wiki.ubuntuusers.de/Lynx/)
