@@ -33,7 +33,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 ```
 
-Reboot mit dem Befehlt ```sudo reboot```
+Reboot mit dem Befehlt ```sudo reboot``` wird ein neustart ausgeführt
 
 ```
 
