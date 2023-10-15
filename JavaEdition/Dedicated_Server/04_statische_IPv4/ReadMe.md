@@ -117,7 +117,9 @@ Befehl: ```sudo netplan try -timeout 180```
 ---
 
 6. Abschluss und Reboot
+
 Befehl: ```sudo netplan apply```
+
 Befehl: ```sudo reboot```
 
 ---
