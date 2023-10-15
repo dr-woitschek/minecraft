@@ -58,4 +58,5 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 ---
 
 _Weiterführende Informationen:_
+* [nano](https://wiki.ubuntuusers.de/Nano/)
 * [ip](https://wiki.ubuntuusers.de/ip/)
