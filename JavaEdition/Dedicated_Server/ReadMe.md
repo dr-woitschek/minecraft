@@ -12,5 +12,6 @@
 * [SSH abhärten](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Dedicated_Server/08_SSH_hardening/)
 * [Firewall konfigurieren](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Dedicated_Server/09_Firewall/)
 * [sysctl abhärten](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Dedicated_Server/10_sysctl_hardening/)
+* [Audit mit lynis](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Dedicated_Server/11_lynis_auditing/)
 
 ---
