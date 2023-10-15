@@ -12,6 +12,3 @@ Aus dem Reports "warning" oder "suggestion" ausgeben, Befehl:
 * ```sudo grep -E "^warning|^suggestion" /var/log/lynis-report.dat```
 
 ---
-
-_Weiterführende Informationen:_
-* [systemctl](https://wiki.ubuntuusers.de/systemd/systemctl/)
