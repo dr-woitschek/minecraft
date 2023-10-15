@@ -74,7 +74,7 @@ To                         Action      From
 
 ---
 
-**fail2ban**:
+**fail2ban Installieren**:
 
 1. Installation durchführen
    * Befehl: ```sudo apt install fail2ban```
@@ -87,7 +87,7 @@ To                         Action      From
 
 Ausgabe:
 ```
- fail2ban.service - Fail2Ban Service
+fail2ban.service - Fail2Ban Service
      Loaded: loaded (/lib/systemd/system/fail2ban.service; enabled; vendor preset: enabled)
      Active: active (running) since Sun 2023-10-15 14:54:27 UTC; 5s ago
        Docs: man:fail2ban(1)
@@ -100,6 +100,45 @@ Ausgabe:
 
 Okt 15 14:54:27 server1 systemd[1]: Started Fail2Ban Service.
 Okt 15 14:54:27 server1 fail2ban-server[2552]: Server ready
+```
+
+**fail2ban Konfigurieren**:
+
+1. Standard-Jail-Konfiguration "erstellen"
+   * Befehl: ```sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local```
+2. Standard-Jail-Konfiguration bearbeiten
+   * Befehl: ```sudo mcedit /etc/fail2ban/jail.local```
+   * Optional: ```sudo sed -i -e '/^#/d' -e '/^$/d' /etc/fail2ban/jail.local```
+     * entfernt alle Kommentar- und Leerzeilen
+3. eigenes Netzwerk ausnehmen
+   * füge in die Sektion ```[DEFAULT]``` dein IP-Netz hinzu
+     * Zum Beispiel: ```ignoreip = 127.0.0.1/8 ::1 192.168.0.0/24```
+4. Einstellungen die von Interesse sind:
+   * ```bantime``` = Zeitangabe wie lang ein ban dauert
+   * ```findtime``` = Zeitspanne in der Interaktionen stattfinden
+   * ```maxretry``` = Anzahl der Fehlversuche
+5. SSH-Dienst aktivieren
+   * füge unterhalb der Sektion ```[sshd]``` folgende Zeilen ein:
+     * ```enabled = true```
+6. Dienst neu starten
+   * Befehl: ```sudo systemctl restart fail2ban```
+7. Konfiguration Überprüfen
+   * Befehl: ```sudo fail2ban-client ping```
+   * Antwort: ```Server replied: pong```
+8. Status des SSH-Dienstes prüfen
+   * Befehl: ```sudo fail2ban-client status sshd```
+
+Ausgabe:
+```
+Status for the jail: sshd
+|- Filter
+|  |- Currently failed: 0
+|  |- Total failed:     0
+|  `- File list:        /var/log/auth.log
+`- Actions
+   |- Currently banned: 0
+   |- Total banned:     0
+   `- Banned IP list:
 ```
 
 ---
