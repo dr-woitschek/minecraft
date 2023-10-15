@@ -4,7 +4,7 @@
 
 **Wir überprüfen den Status der Firewall**
 
-> Befehl: ```sudo ufw status```
+Befehl: ```sudo ufw status```
 
 Ausgabe:
 ```
@@ -15,7 +15,8 @@ Status: inactive
 
 **Standardeinstellungen festlegen**
 **Eingehende Verbindungen ablehnen und ausgehende Verbindungen zugelassen**
-> Befehl: ```sudo ufw default deny incoming```
+
+Befehl: ```sudo ufw default deny incoming```
 
 Ausgabe:
 ```
@@ -23,7 +24,7 @@ Default incoming policy changed to 'deny'
 (be sure to update your rules accordingly)
 ```
 
-> Befehl: ```sudo ufw default allow outgoing```
+Befehl: ```sudo ufw default allow outgoing```
 
 Ausgabe:
 ```
@@ -34,7 +35,8 @@ Default outgoing policy changed to 'allow'
 ---
 
 **SSH Port freigeben**
-> Befehl: ```sudo ufw allow 33771/tcp```
+
+Befehl: ```sudo ufw allow 33771/tcp```
 
 Ausgabe:
 ```
@@ -45,7 +47,8 @@ Rules updated (v6)
 ---
 
 **Firewall einschalten**
-> Befehl: ```sudo ufw enable```
+
+Befehl: ```sudo ufw enable```
 
 Ausgabe:
 ```
