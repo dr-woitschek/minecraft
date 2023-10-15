@@ -40,8 +40,9 @@ _Anpassen der PuTTY Session_
 
 | Beschreibung          | Bild |
 | --------------------- | ---- |
-| starte ```putty.exe``` und erstelle die eine ```Session```                                                                                           | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/07_SSH_konfigurieren/Bilder/Schritt_04_PuTTY_01.jpg"> |
-| in der ```Category``` ```SSH``` ```Auth``` muss die gespeicherte _Private key_-Datei angegeben werden                                                | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/07_SSH_konfigurieren/Bilder/Schritt_04_PuTTY_02.jpg"> |
+| starte ```putty.exe``` und erstelle die eine ```Session```                                                                                                                       | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/07_SSH_konfigurieren/Bilder/Schritt_04_PuTTY_01.jpg"> |
+| in der ```Category``` ```SSH``` ```Auth``` muss die gespeicherte _Private key_-Datei angegeben werden                                                                            | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/07_SSH_konfigurieren/Bilder/Schritt_04_PuTTY_02.jpg"> |
+| mit ```Open``` öffnen wir die Verbindung und sehen in der zweiten Zeile die Schlüssel-Information ```Authenticating with public key "eddsa-key-20231015 / Server1 /Minecraft"``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/07_SSH_konfigurieren/Bilder/Schritt_04_PuTTY_03.jpg"> |
 
 ---
 
