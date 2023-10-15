@@ -2,18 +2,56 @@
 
 ---
 
-1. Wir überprüfen den Status der Firewall:
-Befehl: ```sudo ufw status```
+**Wir überprüfen den Status der Firewall**
 
-2. Standardeinstellungen festlegen: eingehende Verbindungen ablehnen und ausgehende Verbindungen zugelassen.
-   a. Befehl: ```sudo ufw default deny incoming```
-   b. Befehl: ```sudo ufw default allow outgoing```
+> Befehl: ```sudo ufw status```
 
-3. SSH Port freigeben:
-Befehl: ```sudo ufw allow <neuer ssh port>/tcp```
+Ausgabe:
+```
+Status: inactive
+```
 
-4. Firewall einschalten
+---
+
+**Standardeinstellungen festlegen**
+**Eingehende Verbindungen ablehnen und ausgehende Verbindungen zugelassen**
+> Befehl: ```sudo ufw default deny incoming```
+
+Ausgabe:
+```
+Default incoming policy changed to 'deny'
+(be sure to update your rules accordingly)
+```
+
+> Befehl: ```sudo ufw default allow outgoing```
+
+Ausgabe:
+```
+Default outgoing policy changed to 'allow'
+(be sure to update your rules accordingly)
+```
+
+---
+
+**SSH Port freigeben**
+> Befehl: ```sudo ufw allow 33771/tcp```
+
+Ausgabe:
+```
+Rules updated
+Rules updated (v6)
+```
+
+---
+
+**Firewall einschalten**
 Befehl: ```sudo ufw enable```
+
+Ausgabe:
+```
+Command may disrupt existing ssh connections. Proceed with operation (y|n)? y
+Firewall is active and enabled on system startup
+```
 
 ---
 
