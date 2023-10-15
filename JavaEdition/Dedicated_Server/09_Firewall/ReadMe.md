@@ -74,6 +74,19 @@ To                         Action      From
 
 ---
 
+**fail2ban**:
+
+1. Installation durchführen
+   * Befehl: ```sudo apt install fail2ban```
+2. Automatischer Dienststart beim starten
+   * Befehl: ```sudo systemctl enable fail2ban```
+3. Dienst jetzt starten
+   * Befehl: ```sudo systemctl start fail2ban```
+4. Überprüfen des Statuses
+   * Befehl: ```sudo systemctl status fail2ban```
+
+---
+
 **Anregung: Geo-IP-Blocking**
 
 * [https://www.ip2location.com/free/visitor-blocker](https://www.ip2location.com/free/visitor-blocker/)
@@ -83,3 +96,5 @@ To                         Action      From
 
 _Weiterführende Informationen:_
 * [ufw](https://wiki.ubuntuusers.de/ufw/)
+* [fail2ban](https://wiki.ubuntuusers.de/fail2ban/)
+* [systemctl](https://wiki.ubuntuusers.de/systemd/systemctl/)
