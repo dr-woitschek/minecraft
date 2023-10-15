@@ -67,18 +67,6 @@ Current DNS Server: 192.168.0.1
 4. Anpassung von _netplan_
 Befehl: ```sudo netplan generate```
 
-Die YAML-Datei ```/etc/netplan/00-installer-config.yaml``` sollte so aussehen:
-
-```
-
-network:
-  ethernets: 2
-    ens33:
-      dhcp4: true
-  version: 2
-
-```
-
 Befehl: ```sudo touch /etc/netplan/01-netcfg.yaml``` erstellt die Datei
 
 Befehl: ```sudo chmod 600 /etc/netplan/01-netcfg.yaml``` verändert die Datei-Berechtigung
