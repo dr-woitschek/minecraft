@@ -4,8 +4,7 @@
 
 _derzeitige IP-Informationen auslesen:_
 
-
-Ausgabe der IP-Konfiguration mit dem Befehl ```ifconfig```:
+1. Ausgabe der IP-Konfiguration mit dem Befehl ```ifconfig```:
 
 ```
 
@@ -28,9 +27,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 ```
 > Wir merken uns: Netzwerkkarten-Bezeichner ```ens33``` und _inet_ ```192.168.0.109```
 
-
-
-Ausgabe der Routing-Konfiguration mit dem Befehl ```route -n```:
+2. Ausgabe der Routing-Konfiguration mit dem Befehl ```route -n```:
 
 ```
 
@@ -43,7 +40,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 ```
 > Wir merken uns: _Gateway_ ```192.168.0.254```
 
-Ausgabe der DNS-Konfiguration mit dem Befehl ```resolvectl status```:
+3. Ausgabe der DNS-Konfiguration mit dem Befehl ```resolvectl status```:
 
 ```
 
@@ -63,8 +60,33 @@ Current DNS Server: 192.168.0.1
 
 ---
 
+4. Anpassung von _netplan_
+Befehl: ```sudo nano /etc/netplan/01-netcfg.yaml```
+
+Die yaml-Datei ```/etc/netplan/01-netcfg.yaml``` befüllen nachfolgendem Schema:
+> Beachte die vorher ausgelesenen Informationen
+
+```
+    network:
+      version: 2
+      renderer: networkd
+      ethernets:
+        ens33:
+          addresses:
+            - 192.168.0.88/24
+          nameservers:
+            search: [workgroup]
+            addresses: [192.168.0.1]
+          routes:
+            - to: default
+              via: 192.168.0.254
+```
+
+---
+
 _Weiterführende Informationen:_
 * [ip](https://wiki.ubuntuusers.de/ip/)
 * [route](https://wiki.ubuntuusers.de/Router/Routing-Funktion/)
 * [resolvectl](https://wiki.ubuntuusers.de/systemd/systemd-resolved/)
 * [Systeminformationen ermitteln](https://wiki.ubuntuusers.de/Systeminformationen_ermitteln/)
+* [netplan](https://wiki.ubuntuusers.de/Netplan/)
