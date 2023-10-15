@@ -27,6 +27,8 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 ```
 > Wir merken uns: Netzwerkkarten-Bezeichner ```ens33``` und _inet_ ```192.168.0.109```
 
+---
+
 2. Ausgabe der Routing-Konfiguration mit dem Befehl ```route -n```:
 
 ```
@@ -39,6 +41,8 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 ```
 > Wir merken uns: _Gateway_ ```192.168.0.254```
+
+---
 
 3. Ausgabe der DNS-Konfiguration mit dem Befehl ```resolvectl status```:
 
@@ -61,26 +65,60 @@ Current DNS Server: 192.168.0.1
 ---
 
 4. Anpassung von _netplan_
-Befehl: ```sudo nano /etc/netplan/01-netcfg.yaml```
+Befehl: ```sudo netplan generate```
 
-Die yaml-Datei ```/etc/netplan/01-netcfg.yaml``` befüllen nachfolgendem Schema:
-> Beachte die vorher ausgelesenen Informationen
+Die YAML-Datei ```/etc/netplan/00-installer-config.yaml``` sollte so aussehen:
 
 ```
-    network:
-      version: 2
-      renderer: networkd
-      ethernets:
-        ens33:
-          addresses:
-            - 192.168.0.88/24
-          nameservers:
-            search: [workgroup]
-            addresses: [192.168.0.1]
-          routes:
-            - to: default
-              via: 192.168.0.254
+
+network:
+  ethernets: 2
+    ens33:
+      dhcp4: true
+  version: 2
+
 ```
+
+Befehl: ```sudo touch /etc/netplan/01-netcfg.yaml``` erstellt die Datei
+Befehl: ```sudo chmod 600 /etc/netplan/01-netcfg.yaml``` verändert die Datei-Berechtigung
+Befehl: ```sudo nano /etc/netplan/01-netcfg.yaml``` editiert die Datei
+
+Die YAML-Datei ```/etc/netplan/01-netcfg.yaml``` füllen:
+> Beachte: benutze vorher ausgelesenen Informationen!
+> Beachte: beachte das Format YAML!
+
+```
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    ens33:
+      addresses:
+        - 192.168.0.88/24
+      nameservers:
+        search: [workgroup]
+        addresses: [192.168.0.1]
+      routes:
+        - to: default
+          via: 192.168.0.254
+
+```
+
+---
+
+5. Check der Konfiguration
+Befehl: ```sudo netplan try -timeout 180```
+
+> Veranlasst ebenso wie netplan apply die unmittelbare Anwendung der Konfiguration, setzt sie aber nach Ablauf der hinter -timeout angegebenen Sekunden wieder automatisch auf die vorherige Konfiguration zurück. Der Nutzer kann die Konfiguration innerhalb dieser Zeitspanne interaktiv annehmen oder ablehnen. Wird -timeout nicht angegeben so beträgt das Zeitintervall standardmäßig 120 Sekunden.
+
+> Die Nutzung von netplan try ist damit insbesondere sinnvoll, wenn man neue Netzwerkkonfigurationen auf einem System per Fernwartung einrichten will.
+
+---
+
+6. Abschluss und Reboot
+Befehl: ```sudo netplan apply```
+Befehl: ```sudo reboot```
 
 ---
 
@@ -90,3 +128,4 @@ _Weiterführende Informationen:_
 * [resolvectl](https://wiki.ubuntuusers.de/systemd/systemd-resolved/)
 * [Systeminformationen ermitteln](https://wiki.ubuntuusers.de/Systeminformationen_ermitteln/)
 * [netplan](https://wiki.ubuntuusers.de/Netplan/)
+* [yaml](https://de.wikipedia.org/wiki/YAML)
