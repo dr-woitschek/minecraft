@@ -115,9 +115,10 @@ Okt 15 14:54:27 server1 fail2ban-server[2552]: Server ready
 | 7.      | **Konfiguration Überprüfen**<br/>Befehl:<br/>```sudo fail2ban-client ping```<br/>Antwort:<br/>```Server replied: pong```                                                                                                                        |
 
 _Informationen ausgeben:_
-> Status des SSH-Dienstes prüfen
 
-> Befehl: ```sudo fail2ban-client status sshd```
+* Status des SSH-Dienstes prüfen
+
+Befehl: ```sudo fail2ban-client status sshd```
 
 Ausgabe:
 ```
