@@ -85,6 +85,23 @@ To                         Action      From
 4. Überprüfen des Statuses
    * Befehl: ```sudo systemctl status fail2ban```
 
+Ausgabe:
+```
+ fail2ban.service - Fail2Ban Service
+     Loaded: loaded (/lib/systemd/system/fail2ban.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sun 2023-10-15 14:54:27 UTC; 5s ago
+       Docs: man:fail2ban(1)
+   Main PID: 2552 (fail2ban-server)
+      Tasks: 5 (limit: 4515)
+     Memory: 11.8M
+        CPU: 92ms
+     CGroup: /system.slice/fail2ban.service
+             └─2552 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+
+Okt 15 14:54:27 server1 systemd[1]: Started Fail2Ban Service.
+Okt 15 14:54:27 server1 fail2ban-server[2552]: Server ready
+```
+
 ---
 
 **Anregung: Geo-IP-Blocking**
