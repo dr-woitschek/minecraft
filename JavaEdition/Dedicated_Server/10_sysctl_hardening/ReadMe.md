@@ -80,6 +80,12 @@ net.ipv4.tcp_rfc1337 = 1
 
 ```
 
+Reload, Befehl: ```sudo sysctl -p```
+
+Reboot, Befehl: ```sudo reboot```
+
+Anmerkung: sollte Kernel panic entstehen ```kernel.panic=10```
+
 ---
 
 _Weiterführende Informationen:_
