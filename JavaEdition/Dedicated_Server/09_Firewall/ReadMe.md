@@ -116,18 +116,21 @@ Okt 15 14:54:27 server1 fail2ban-server[2552]: Server ready
 
 _Informationen ausgeben:_
 > Status des SSH-Dienstes prüfen
-> Befehl: ```sudo fail2ban-client status sshd```
-> Ausgabe:
-> Status for the jail: sshd
-> |- Filter
-> |  |- Currently failed: 0
-> |  |- Total failed:     0
-> |  `- File list:        /var/log/auth.log
-> `- Actions
->    |- Currently banned: 0
->    |- Total banned:     0
->    `- Banned IP list:
 
+> Befehl: ```sudo fail2ban-client status sshd```
+
+Ausgabe:
+```
+Status for the jail: sshd
+|- Filter
+|  |- Currently failed: 0
+|  |- Total failed:     0
+|  `- File list:        /var/log/auth.log
+`- Actions
+   |- Currently banned: 0
+   |- Total banned:     0
+   `- Banned IP list:
+```
 
 ---
 
