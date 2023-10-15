@@ -58,5 +58,21 @@ Firewall is active and enabled on system startup
 
 ---
 
+**Wir überprüfen den Status der Firewall**
+
+Befehl: ```sudo ufw status```
+
+Ausgabe:
+```
+Status: active
+
+To                         Action      From
+--                         ------      ----
+33771/tcp                  ALLOW       Anywhere
+33771/tcp (v6)             ALLOW       Anywhere (v6)
+```
+
+---
+
 _Weiterführende Informationen:_
 * [ufw](https://wiki.ubuntuusers.de/ufw/)
