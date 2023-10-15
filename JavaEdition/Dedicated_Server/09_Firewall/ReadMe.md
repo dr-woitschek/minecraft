@@ -6,8 +6,8 @@
 Befehl: ```sudo ufw status```
 
 2. Standardeinstellungen festlegen: eingehende Verbindungen ablehnen und ausgehende Verbindungen zugelassen.
-2.1 Befehl: ```sudo ufw default deny incoming```
-2.2 Befehl: ```sudo ufw default allow outgoing```
+   2.1 Befehl: ```sudo ufw default deny incoming```
+   2.2 Befehl: ```sudo ufw default allow outgoing```
 
 3. SSH Port freigeben:
 Befehl: ```sudo ufw allow <neuer ssh port>/tcp```
