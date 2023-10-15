@@ -76,9 +76,8 @@ To                         Action      From
 
 **Anregung: Geo-IP-Blocking**
 
-[https://www.ip2location.com/free/visitor-blocker](https://www.ip2location.com/free/visitor-blocker/)
-
-[https://www.countryipblocks.net/acl.php](https://www.countryipblocks.net/acl.php/)
+* [https://www.ip2location.com/free/visitor-blocker](https://www.ip2location.com/free/visitor-blocker/)
+* [https://www.countryipblocks.net/acl.php](https://www.countryipblocks.net/acl.php/)
 
 ---
 
