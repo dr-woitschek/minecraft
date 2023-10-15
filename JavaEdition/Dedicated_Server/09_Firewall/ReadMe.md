@@ -104,72 +104,16 @@ Okt 15 14:54:27 server1 fail2ban-server[2552]: Server ready
 
 **fail2ban Konfigurieren**:
 
-1. Standard-Jail-Konfiguration "erstellen"
-   * Befehl: ```sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local```
-2. Standard-Jail-Konfiguration bearbeiten
-   * Befehl: ```sudo mcedit /etc/fail2ban/jail.local```
-   * Optional: ```sudo sed -i -e '/^#/d' -e '/^$/d' /etc/fail2ban/jail.local```
-     * entfernt alle Kommentar- und Leerzeilen
-3. eigenes Netzwerk ausnehmen
-   * füge in die Sektion ```[DEFAULT]``` dein IP-Netz hinzu
-     * Zum Beispiel: ```ignoreip = 127.0.0.1/8 ::1 192.168.0.0/24```
-4. Einstellungen die von Interesse sind:
-   * ```bantime``` = Zeitangabe wie lang ein ban dauert
-   * ```findtime``` = Zeitspanne in der Interaktionen stattfinden
-   * ```maxretry``` = Anzahl der Fehlversuche
-5. SSH-Dienst aktivieren
-   * füge unterhalb der Sektion ```[sshd]``` folgende Zeilen ein:
-     * ```enabled = true```
-6. Dienst neu starten
-   * Befehl: ```sudo systemctl restart fail2ban```
-7. Konfiguration Überprüfen
-   * Befehl: ```sudo fail2ban-client ping```
-   * Antwort: ```Server replied: pong```
-8. Status des SSH-Dienstes prüfen
-   * Befehl: ```sudo fail2ban-client status sshd```
-
-Ausgabe:
-```
-Status for the jail: sshd
-|- Filter
-|  |- Currently failed: 0
-|  |- Total failed:     0
-|  `- File list:        /var/log/auth.log
-`- Actions
-   |- Currently banned: 0
-   |- Total banned:     0
-   `- Banned IP list:
-```
-9. Optionen prüfen
-   * Befehl: ```sudo fail2ban-client get sshd ignoreip```
-Ausgabe:
-```
-These IP addresses/networks are ignored:
-|- 127.0.0.0/8
-|- 192.168.0.0/24
-`- ::1
-```
-   * Befehl: ```sudo fail2ban-client get sshd bantime```
-Ausgabe:
-```
-600
-```
-   * Befehl: ```sudo fail2ban-client get sshd maxretry```
-Ausgabe:
-```
-5
-```
-   * Befehl: ```sudo fail2ban-client get sshd actions```
-Ausgabe:
-```
-The jail sshd has the following actions:
-iptables-multiport
-```
-   * Befehl: ```sudo fail2ban-client get sshd findtime```
-Ausgabe:
-```
-600
-```
+| Schritt | Beschreibung |
+| :-----: | ------------ |
+| 1.      | Standard-Jail-Konfiguration "erstellen"<br/>Befehl: ```sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local```                                                                                                   |
+| 2.      | Standard-Jail-Konfiguration bearbeiten<br/>Befehl: ```sudo mcedit /etc/fail2ban/jail.local```<br/>Optional: ```sudo sed -i -e '/^#/d' -e '/^$/d' /etc/fail2ban/jail.local``` entfernt alle Kommentar- und Leerzeilen |
+| 3.      | eigenes Netzwerk ausnehmen<br/>Sektion ```[DEFAULT]``` Hinzufügen: ```ignoreip = 127.0.0.1/8 ::1 192.168.0.0/24```                                                                                                   |
+| 4.      | Einstellungen die von Interesse sind:<br/>* ```bantime``` = Zeitangabe wie lang ein ban dauert<br/>* ```findtime``` = Zeitspanne in der Interaktionen stattfinden<br/>* ```maxretry``` = Anzahl der Fehlversuche     |
+| 5.      | SSH-Dienst aktivieren<br/>Sektion ```[sshd]``` um folgende Zeile erweitern:<br/>```enabled = true```                                                                                                                 |
+| 6.      | Dienst neu starten<br/>Befehl: ```sudo systemctl restart fail2ban```                                                                                                                                                 |
+| 7.      | Konfiguration Überprüfen<br/>Befehl: ```sudo fail2ban-client ping```<br/>Antwort:<br/>```Server replied: pong```                                                                                                     |
+| 8.      | Status des SSH-Dienstes prüfen<br/>Befehl: ```sudo fail2ban-client status sshd```<br/>
 
 ---
 
