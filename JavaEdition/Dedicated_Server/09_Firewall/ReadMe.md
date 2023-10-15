@@ -106,14 +106,28 @@ Okt 15 14:54:27 server1 fail2ban-server[2552]: Server ready
 
 | Schritt | Beschreibung |
 | :-----: | ------------ |
-| 1.      | Standard-Jail-Konfiguration "erstellen"<br/>Befehl: ```sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local```                                                                                                                               |
-| 2.      | Standard-Jail-Konfiguration bearbeiten<br/>Befehl: ```sudo mcedit /etc/fail2ban/jail.local```<br/><br/>_Optional:_ ```sudo sed -i -e '/^#/d' -e '/^$/d' /etc/fail2ban/jail.local``` entfernt alle Kommentar- und Leerzeilen                      |
-| 3.      | eigenes Netzwerk ausnehmen<br/>Sektion ```[DEFAULT]```<br/>Hinzufügen: ```ignoreip = 127.0.0.1/8 ::1 192.168.0.0/24```                                                                                                                           |
-| 4.      | Einstellungen die von Interesse sind<br/>Sektion ```[DEFAULT]```<br/><br/>* ```bantime``` = Zeitangabe wie lang ein ban dauert<br/>* ```findtime``` = Zeitspanne in der Interaktionen stattfinden<br/>* ```maxretry``` = Anzahl der Fehlversuche |
-| 5.      | SSH-Dienst aktivieren<br/>Sektion ```[sshd]``` um folgende Zeile erweitern:<br/>```enabled = true```                                                                                                                 |
-| 6.      | Dienst neu starten<br/>Befehl: ```sudo systemctl restart fail2ban```                                                                                                                                                 |
-| 7.      | Konfiguration Überprüfen<br/>Befehl:<br/>```sudo fail2ban-client ping```<br/>Antwort:<br/>```Server replied: pong```                                                                                                     |
-| 8.      | Status des SSH-Dienstes prüfen<br/>Befehl: ```sudo fail2ban-client status sshd```<br/>
+| 1.      | **Standard-Jail-Konfiguration "erstellen"**<br/>Befehl: ```sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local```                                                                                                                          |
+| 2.      | **Standard-Jail-Konfiguration bearbeiten**<br/>Befehl: ```sudo mcedit /etc/fail2ban/jail.local```<br/><br/>_Optional:_ ```sudo sed -i -e '/^#/d' -e '/^$/d' /etc/fail2ban/jail.local```<br/>_entfernt alle Kommentar- und Leerzeilen_           |
+| 3.      | **eigenes Netzwerk ausnehmen**<br/>Sektion ```[DEFAULT]```<br/>Hinzufügen: ```ignoreip = 127.0.0.1/8 ::1 192.168.0.0/24```                                                                                                                      |
+| 4.      | **Einstellungen die von Interesse**<br/>Sektion ```[DEFAULT]```<br/><br/>* ```bantime``` = Zeitangabe wie lang ein ban dauert<br/>* ```findtime``` = Zeitspanne in der Interaktionen stattfinden<br/>* ```maxretry``` = Anzahl der Fehlversuche |
+| 5.      | **SSH-Dienst aktivieren**<br/>Sektion ```[sshd]``` um folgende Zeile erweitern:<br/>```enabled = true```                                                                                                                                        |
+| 6.      | **Dienst neu starten**<br/>Befehl: ```sudo systemctl restart fail2ban```                                                                                                                                                                        |
+| 7.      | **Konfiguration Überprüfen**<br/>Befehl:<br/>```sudo fail2ban-client ping```<br/>Antwort:<br/>```Server replied: pong```                                                                                                                        |
+
+_Informationen ausgeben:_
+> Status des SSH-Dienstes prüfen
+> Befehl: ```sudo fail2ban-client status sshd```
+> Ausgabe:
+> Status for the jail: sshd
+> |- Filter
+> |  |- Currently failed: 0
+> |  |- Total failed:     0
+> |  `- File list:        /var/log/auth.log
+> `- Actions
+>    |- Currently banned: 0
+>    |- Total banned:     0
+>    `- Banned IP list:
+
 
 ---
 
