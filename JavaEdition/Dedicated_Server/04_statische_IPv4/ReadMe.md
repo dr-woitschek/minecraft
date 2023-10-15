@@ -1,0 +1,70 @@
+**statische IPv4 einstellen**
+
+---
+
+_derzeitige IP-Informationen auslesen:_
+
+
+Ausgabe der IP-Konfiguration mit dem Befehl ```ifconfig```:
+
+```
+
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.109  netmask 255.255.255.0  broadcast 192.168.0.255
+        ether 00:00:00:ab:ab:ab  txqueuelen 1000  (Ethernet)
+        RX packets 39  bytes 5684 (5.6 KB)
+        RX errors 0  dropped 12  overruns 0  frame 0
+        TX packets 23  bytes 5897 (5.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 80  bytes 5920 (5.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 80  bytes 5920 (5.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+```
+> Wir merken uns: Netzwerkkarten-Bezeichner ```ens33``` und _inet_ ```192.168.0.109```
+
+
+
+Ausgabe der Routing-Konfiguration mit dem Befehl ```route -n```:
+
+```
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.0.254   0.0.0.0         UG    100    0        0 ens33
+192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 ens33
+192.168.0.254   0.0.0.0         255.255.255.255 UH    100    0        0 ens33
+
+```
+> Wir merken uns: _Gateway_ ```192.168.0.254```
+
+Ausgabe der DNS-Konfiguration mit dem Befehl ```resolvectl status```:
+
+```
+
+Global
+       Protocols: -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+resolv.conf mode: stub
+
+Link 2 (ens33)
+    Current Scopes: DNS
+         Protocols: +DefaultRoute +LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+Current DNS Server: 192.168.0.1
+       DNS Servers: 192.168.0.1
+        DNS Domain: workgroup
+
+```
+> Wir merken uns: _DNS Servers_ ```192.168.0.1``` und _DNS Domain_ ```workgroup```
+
+---
+
+_Weiterführende Informationen:_
+* [ip](https://wiki.ubuntuusers.de/ip/)
+* [route](https://wiki.ubuntuusers.de/Router/Routing-Funktion/)
+* [resolvectl](https://wiki.ubuntuusers.de/systemd/systemd-resolved/)
+* [Systeminformationen ermitteln](https://wiki.ubuntuusers.de/Systeminformationen_ermitteln/)
