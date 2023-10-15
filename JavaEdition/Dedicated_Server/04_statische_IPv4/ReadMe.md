@@ -80,7 +80,9 @@ network:
 ```
 
 Befehl: ```sudo touch /etc/netplan/01-netcfg.yaml``` erstellt die Datei
+
 Befehl: ```sudo chmod 600 /etc/netplan/01-netcfg.yaml``` verändert die Datei-Berechtigung
+
 Befehl: ```sudo nano /etc/netplan/01-netcfg.yaml``` editiert die Datei
 
 Die YAML-Datei ```/etc/netplan/01-netcfg.yaml``` füllen:
