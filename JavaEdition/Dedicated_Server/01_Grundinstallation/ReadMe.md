@@ -5,7 +5,7 @@
 **Schritt für Schritt:**
 
 | Schritt | Bild |
-| ------- | ---- |
+| :-----: | ---- |
 | 01      | <img src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/01_Grundinstallation/Bilder/Install_01.jpeg"> |
 | 02      | <img src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/01_Grundinstallation/Bilder/Install_02.jpeg"> |
 | 03      | <img src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/01_Grundinstallation/Bilder/Install_03.jpeg"> |
