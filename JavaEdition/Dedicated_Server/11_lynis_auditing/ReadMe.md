@@ -2,11 +2,14 @@
 
 ---
 
-Installation erfolgt über den Befehl: ```sudo apt install lynis```
+Installation erfolgt über den Befehl:
+* ```sudo apt install lynis```
 
-Untersuchung starten mit dem Befehl: ```sudo lynis audit system```
+Untersuchung starten mit dem Befehl:
+* ```sudo lynis audit system```
 
-Aus dem Reports "warning" oder "suggestion" ausgeben, Befehl: ```sudo grep -E "^warning|^suggestion" /var/log/lynis-report.dat```
+Aus dem Reports "warning" oder "suggestion" ausgeben, Befehl:
+* ```sudo grep -E "^warning|^suggestion" /var/log/lynis-report.dat```
 
 ---
 
