@@ -32,7 +32,7 @@ _SSH Key hinterlegen_
 | öffne die Datei mit einem beliebigen Editor ```nano .ssh/authorized_keys```                                             | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/07_SSH_konfigurieren/Bilder/Schritt_03_authorized_keys_02.jpg"> |
 | kopiere aus ```PuTTYGEN``` den Inhalt ```Public key for pasting into OpenSSH authorized_keys file``` (STRG+C)           | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/07_SSH_konfigurieren/Bilder/Schritt_03_authorized_keys_03.jpg"> |
 | füge den Inhalt in die Datei ```.ssh/authorized_keys file``` ein (STRG+V) und speichere diese                           | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/07_SSH_konfigurieren/Bilder/Schritt_03_authorized_keys_04.jpg"> |
-| überprüfe die Berechtigung der Datei ```.ssh/authorized_keys file``` mit dem Befehl ```ls -aFlh .ssh/authorized_keys``` | Ausgabe: ```-rw------- 1 minecraft minecraft 121 Okt 15 12:31 .ssh/authorized_keys```                                                                                  |
+| überprüfe die Berechtigung der Datei ```.ssh/authorized_keys file``` mit dem Befehl ```ls -aFlh .ssh/authorized_keys``` | Ausgabe: <br/> ```-rw------- 1 minecraft minecraft 121 Okt 15 12:31 .ssh/authorized_keys```                                                                            |
 
 ---
 
