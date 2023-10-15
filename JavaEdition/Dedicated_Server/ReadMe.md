@@ -1,3 +1,7 @@
-Minecraft Java Dedicated Server spielereien
+**Minecraft Java Dedicated Server spielereien**
+
+---
+
+* [Grundinstallation](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Dedicated_Server/01_GrundInstallation/)
 
 ---
