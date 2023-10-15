@@ -27,8 +27,9 @@ Mit dem Befehl ```sudo nano /etc/ssh/sshd_config``` bearbeiten wir die Konfigura
 | Einstellung          | Beschreibung |
 | -------------------- | ------------ |
 | Include /etc/ssh/sshd_config.d/*.conf | Bindet die festgelegte Konfigurationsdatei ein. Es können mehrere Pfadnamen festgelegt werden und jeder Pfadname darf Platzhalter enthalten, die expandiert und in lexikalischer Reihenfolge verarbeitet werden. Von Dateien ohne absolute Pfade wird vermutet, dass sie in /etc/ssh liegen. Innerhalb eines Match-Blocks kann eine Include -Direktive auftauchen, um bedingte Einbindung durchzuführen. |
-| Port 33771                            | Legt die Port-Nummer fest, an der sshd auf Anfragen warten soll. Mehrere Optionen dieser Art sind erlaubt.<br/>Standard-Einstellung: 22 |
-
+| Port 33771                            | Legt die Port-Nummer fest, an der sshd auf Anfragen warten soll. Mehrere Optionen dieser Art sind erlaubt.<br/><br/>Standard-Einstellung: 22 |
+| KbdInteractiveAuthentication no       | Legt fest, ob interaktive Anmeldung über die Tastatur erlaubt wird. Das Argument für dieses Schlüsselwort muss yes oder no lauten. Die Vorgabe ist, den Wert zu verwenden, auf den ChallengeResponseAuthentication gesetzt ist.<br/><br/>Standard-Einstellung: yes |
+	
 
 ---
 
