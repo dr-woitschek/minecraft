@@ -140,6 +140,36 @@ Status for the jail: sshd
    |- Total banned:     0
    `- Banned IP list:
 ```
+9. Optionen prüfen
+   * Befehl: ```sudo fail2ban-client get sshd ignoreip```
+Ausgabe:
+```
+These IP addresses/networks are ignored:
+|- 127.0.0.0/8
+|- 192.168.0.0/24
+`- ::1
+```
+   * Befehl: ```sudo fail2ban-client get sshd bantime```
+Ausgabe:
+```
+600
+```
+   * Befehl: ```sudo fail2ban-client get sshd maxretry```
+Ausgabe:
+```
+5
+```
+   * Befehl: ```sudo fail2ban-client get sshd actions```
+Ausgabe:
+```
+The jail sshd has the following actions:
+iptables-multiport
+```
+   * Befehl: ```sudo fail2ban-client get sshd findtime```
+Ausgabe:
+```
+600
+```
 
 ---
 
