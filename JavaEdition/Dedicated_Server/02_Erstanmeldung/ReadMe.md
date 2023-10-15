@@ -10,3 +10,9 @@
 | Befehl ausführen: <br/> ```sudo apt install mc net-tools``` | <img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/Grundkonfiguration_05.jpeg"><img width="50%" src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/02_Erstanmeldung/Bilder/Grundkonfiguration_06.jpeg"> |
 
 ---
+
+_Weiterführende Informationen:_
+* [mc](https://wiki.ubuntuusers.de/apt/apt/)
+* [mc](https://wiki.ubuntuusers.de/Midnight_Commander/)
+* [net-tools\netstat](https://wiki.ubuntuusers.de/netstat/)
+* [net-tools](https://net-tools.sourceforge.io/)
