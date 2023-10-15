@@ -116,7 +116,7 @@ Okt 15 14:54:27 server1 fail2ban-server[2552]: Server ready
 
 _Informationen ausgeben:_
 
-* Status des SSH-Dienstes prüfen
+* fail2ban-Status des SSH-Dienstes prüfen
 
 Befehl: ```sudo fail2ban-client status sshd```
 
@@ -136,10 +136,11 @@ Status for the jail: sshd
 | Befehl | Ausgabe |
 | ------ | ------- |
 | ```sudo fail2ban-client get sshd ignoreip``` | ```These IP addresses/networks are ignored:```<br/>```- 127.0.0.0/8```<br/>```- 192.168.0.0/24```<br/>```- ::1``` |
-| ```sudo fail2ban-client get sshd bantime```  | ```600```                                                                                                            |
-| ```sudo fail2ban-client get sshd maxretry``` | ```5```                                                                                                              |
-| ```sudo fail2ban-client get sshd actions```  | ```The jail sshd has the following actions:```<br/>```iptables-multiport```                                          |
-| ```sudo fail2ban-client get sshd findtime``` | ```600```                                                                                                            |
+| ```sudo fail2ban-client get sshd bantime```  | ```600```                                                                                                         |
+| ```sudo fail2ban-client get sshd maxretry``` | ```5```                                                                                                           |
+| ```sudo fail2ban-client get sshd actions```  | ```The jail sshd has the following actions:```<br/>```iptables-multiport```                                       |
+| ```sudo fail2ban-client get sshd findtime``` | ```600```                                                                                                         |
+| ...                                          | ...                                                                                                               |
 
 ---
 
