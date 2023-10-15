@@ -45,7 +45,7 @@ Rules updated (v6)
 ---
 
 **Firewall einschalten**
-Befehl: ```sudo ufw enable```
+> Befehl: ```sudo ufw enable```
 
 Ausgabe:
 ```
