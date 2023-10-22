@@ -34,11 +34,12 @@
 
 ---
 
-| #                | Beschreibung  |
-| ---------------- | ------------- |
-| Plugin-Name      | **ChestShop** |
-| Plugin-Link      | [https://www.spigotmc.org/resources/chestshop.51856/](https://www.spigotmc.org/resources/chestshop.51856/) |
-| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/chestshop reload</td><td>reload des Plugins</td></tr></tbody></table><br><table><thead><tr><th colspan="3">Schild für eine Shop-Kiste</th></tr></thead><tbody><tr><td>Zeile</td><td>Inhalt</td><td>Beschreibung</td></tr><tr><td>1</td><td>Admin Shop **oder** leer lassen</td><td>definiert die Kiste als Admin-Shop-Kiste oder wenn die Zeile leer gelassen wird, als Spieler-Shop-Kiste</td></tr><tr><td>2</td><td>123</td><td>definiert die Menge die pro Kauf/Verkauf ausgegeben wird</td></tr><tr><td>3</td><td>B123:321S</td><td>definiert den Verkaufs bzw. Kaufpreis (B=kaufen / S=verkaufen)</td></tr><tr><td>4</td><td>?</td><td>definiert das Item, wird automatisch ausgefüllt</td></tr></tbody></table><br> |
+| #                    | Beschreibung  |
+| -------------------- | ------------- |
+| Plugin-Name          | **ChestShop** |
+| Plugin-Link          | [https://www.spigotmc.org/resources/chestshop.51856/](https://www.spigotmc.org/resources/chestshop.51856/) |
+| Command-Sammlung     | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/chestshop reload</td><td>reload des Plugins</td></tr></tbody></table><br> |
+| Zusatz-Informationen | <br><table><thead><tr><th colspan="3">Schild für eine Shop-Kiste</th></tr></thead><tbody><tr><td>Zeile</td><td>Inhalt</td><td>Beschreibung</td></tr><tr><td>1</td><td>Admin Shop **oder** leer lassen</td><td>definiert die Kiste als Admin-Shop-Kiste oder wenn die Zeile leer gelassen wird, als Spieler-Shop-Kiste</td></tr><tr><td>2</td><td>123</td><td>definiert die Menge die pro Kauf/Verkauf ausgegeben wird</td></tr><tr><td>3</td><td>B123:321S</td><td>definiert den Verkaufs bzw. Kaufpreis (B=kaufen / S=verkaufen)</td></tr><tr><td>4</td><td>?</td><td>definiert das Item, wird automatisch ausgefüllt</td></tr></tbody></table><br> |
 
 ---
 
@@ -55,5 +56,14 @@
 | Plugin-Name      | **DecentHolograms** |
 | Plugin-Link      | [https://www.spigotmc.org/resources/decent-holograms-1-8-1-18-2-papi-support-no-dependencies.96927/](https://www.spigotmc.org/resources/decent-holograms-1-8-1-18-2-papi-support-no-dependencies.96927/) |
 | Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/dh create <name></td><td>erstellt eine Hologramm</td></tr><tr><td>/dh reload</td><td>reload des Plugins</td></tr></tbody></table><br> |
+
+---
+
+| #                    | Beschreibung            |
+| -------------------- | ----------------------- |
+| Plugin-Name          | **EnchantmentSolution** |
+| Plugin-Link          | [https://www.spigotmc.org/resources/enchantment-solution.59556/](https://www.spigotmc.org/resources/enchantment-solution.59556/) |
+| Command-Sammlung     | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/esreload</td><td>reload des Plugins</td></tr></tbody></table><br> |
+| Zusatz-Informationen | <br><br> |
 
 ---
