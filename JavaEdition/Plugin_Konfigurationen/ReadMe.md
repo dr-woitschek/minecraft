@@ -163,8 +163,71 @@
 | ---------------- | --------------- |
 | Plugin-Name      | **ServerSigns** |
 | Plugin-Link      | [https://github.com/serversigns/ServerSigns/releases](https://github.com/serversigns/ServerSigns/releases) |
-| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/svs reloadSigns</td><td>reload des Plugins</td></tr><tr><td>/svs create</td><td>ein ServerSigns-Schild erstellen</td></tr><tr><td>/svs delete</td><td>ein ServerSigns-Schild loeschen</td></tr></tbody></table><br><table><thead><tr><th colspan="3">ein Beispiel-Schild</th></tr></thead><tbody><tr><td>#</td><td>Befehl</td><td>Erklärung</td></tr><tr><td>1</td><td>/svs add \<msg\> Hi <player>!</td><td>Begrueßt den Spieler</td></tr><tr><td>2</td><td>/svs option frage1 question Willst du SPIELEN?</td><td>definiert die Frage</td></tr><tr><td>3</td><td>/svs option frage1 add Yes Deine Antwort war 'YES'</td><td>definiert die Antwort</td></tr><tr><td>4</td><td>/svs option frage1 add No Deine Antwort war 'NO'</td><td>definiert die Antwort</td></tr><tr><td>5</td><td>/svs add \<displayOption\> frage1</td><td>fuegt die Frage hinzu</td></tr><tr><td>6</td><td>/svs add <if> checkOption:frage1=yes</td><td>if Abfrage</td></tr><tr><td>7</td><td>/svs add \<msg\> du hast jetzt wirklich 'JA' getippt </td><td>wenn 'JA' ist</td></tr><tr><td>8</td><td>/svs add <endif></td><td>if ende</td></tr></tbody></table> |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/svs reloadSigns</td><td>reload des Plugins</td></tr><tr><td>/svs create</td><td>ein ServerSigns-Schild erstellen</td></tr><tr><td>/svs delete</td><td>ein ServerSigns-Schild loeschen</td></tr></tbody></table><br><table><thead><tr><th colspan="3">ein Beispiel-Schild</th></tr></thead><tbody><tr><td>#</td><td>Befehl</td><td>Erklärung</td></tr><tr><td>1</td><td>/svs add \<msg\> Hi <player>!</td><td>Begrueßt den Spieler</td></tr><tr><td>2</td><td>/svs option frage1 question Willst du SPIELEN?</td><td>definiert die Frage</td></tr><tr><td>3</td><td>/svs option frage1 add Yes Deine Antwort war 'YES'</td><td>definiert die Antwort</td></tr><tr><td>4</td><td>/svs option frage1 add No Deine Antwort war 'NO'</td><td>definiert die Antwort</td></tr><tr><td>5</td><td>/svs add \<displayOption\> frage1</td><td>fuegt die Frage hinzu</td></tr><tr><td>6</td><td>/svs add <if> checkOption:frage1=yes</td><td>if Abfrage</td></tr><tr><td>7</td><td>/svs add \<msg\> du hast jetzt wirklich 'JA' getippt </td><td>wenn 'JA' ist</td></tr><tr><td>8</td><td>/svs add \<endif\></td><td>if ende</td></tr></tbody></table> |
 
 ---
 
+| #                | Beschreibung   |
+| ---------------- | -------------- |
+| Plugin-Name      | **TreeAssist** |
+| Plugin-Link      | [https://www.spigotmc.org/resources/treeassist.67436/](https://www.spigotmc.org/resources/treeassist.67436/) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/treeassist reload</td><td>reload des Plugins</td></tr></tbody></table><br> |
 
+---
+
+| #                    | Beschreibung |
+| -------------------- | ------------ |
+| Plugin-Name          | **Vault**    |
+| Plugin-Link          | [https://www.spigotmc.org/resources/vault.34315/](https://www.spigotmc.org/resources/vault.34315/) |
+| Zusatz-Informationen | ein Economy Plugin |
+
+---
+
+| #                | Beschreibung   |
+| ---------------- | -------------- |
+| Plugin-Name      | **WildChests** |
+| Plugin-Link      | [https://bg-software.com/wildchests/](https://bg-software.com/wildchests/) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/chests reload</td><td>reload des Plugins</td></tr><tr><td>/chests give _Spielername_ auto_crafter _Anzahl_</td><td>gibt dem Spieler die AutoCraft-Truhe</td></tr><tr><td>/chests give _Spielername_ sell_chest _Anzahl_</td><td>gibt dem Spieler die Sell-Truhe</td></tr></tbody></table><br> |
+
+---
+
+| #                | Beschreibung   |
+| ---------------- | -------------- |
+| Plugin-Name      | **WorldEdit** |
+| Plugin-Link      | [https://dev.bukkit.org/projects/worldedit](https://dev.bukkit.org/projects/worldedit) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>//wand</td><td>WorldEdit Werkzeug</td></tr><tr><td>//undo</td><td>WorldEdit aktion Rueckgängig machen</td></tr><tr><td>//clearclipboard</td><td>loescht die Zwischenablage</td></tr><tr><td>//replace _Blockname_ _Blockname_</td><td>ersetzt den einen Block durch den anderen</td></tr></tbody></table><br> |
+
+---
+
+| #                    | Beschreibung   |
+| -------------------- | -------------- |
+| Plugin-Name          | **WorldGuard** |
+| Plugin-Link          | [https://dev.bukkit.org/projects/worldguard](https://dev.bukkit.org/projects/worldguard) |
+| Zusatz-Informationen | ein Welt-Beschuetzer-Plugin xD |
+
+---
+
+| #                    | Beschreibung |
+| -------------------- | ------------ |
+| Plugin-Name          | **Elevator** |
+| Plugin-Link          | [https://www.spigotmc.org/resources/elevator.84274/](https://www.spigotmc.org/resources/elevator.84274/) |
+| Zusatz-Informationen | ein Aufzug mit dem Tageslichtsensoren xD |
+
+---
+
+| #                    | Beschreibung  |
+| -------------------- | ------------- |
+| Plugin-Name          | **Craftbook** |
+| Plugin-Link          | [https://dev.bukkit.org/projects/craftbook](https://dev.bukkit.org/projects/craftbook) |
+| Command-Sammlung     | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/cb reload</td><td>reload des Plugins</td></tr></tbody></table><br><table><thead><tr><th>Teleporter-Schild</th><th>Erklärung</th></tr></thead><tbody><tr><td>Schild Zeile 1</td><td>Leer Zeile</td></tr><tr><td>Schild Zeile 2</td><td>[Teleporter]</td></tr><tr><td>Schild Zeile 3</td><td>x:y:z</td></tr><tr><td>Schild Zeile 4</td><td>Leer Zeile</td></tr><tr><td>Berechtigung zum erstellen</td><td>craftbook.mech.teleporter</td></tr><tr><td>Berechtigung zum benutzen</td><td>craftbook.mech.teleporter.use</td></tr></tbody></table><br><table><thead><tr><th>Sammler-Schild</th><th>Erklärung</th></tr></thead><tbody><tr><td>Schild Zeile 1</td><td>COLLECTOR</td></tr><tr><td>Schild Zeile 2</td><td>[MC1214]s</td></tr><tr><td>Schild Zeile 3</td><td>5 (Radius)</td></tr><tr><td>Schild Zeile 4</td><td>Leer Zeile</td></tr><tr><td>Berechtigung zum benutzen</td><td>craftbook.ic.mc1214</td></tr></tbody></table><br><table><thead><tr><th>Farm-Schild</th><th>Erklärung</th></tr></thead><tbody><tr><td>Schild Zeile 1</td><td>CULTIVATOR</td></tr><tr><td>Schild Zeile 2</td><td>[MC1235]s</td></tr><tr><td>Schild Zeile 3</td><td>5 (Radius)</td></tr><tr><td>Schild Zeile 4</td><td>Leer Zeile</td></tr><tr><td>Berechtigung zum benutzen</td><td>craftbook.ic.mc1235</td></tr><tr><td>Beschreibung</td><td>Kultiviert eine Fläche mit einer Hacke</td></tr></tbody></table><br><table><thead><tr><th>Pflanz-Schild</th><th>Erklärung</th></tr></thead><tbody><tr><td>Schild Zeile 1</td><td>PLANTER</td></tr><tr><td>Schild Zeile 2</td><td>[MC1234]s</td></tr><tr><td>Schild Zeile 3</td><td>Leer Zeile</td></tr><tr><td>Schild Zeile 4</td><td>5 (Radius)</td></tr><tr><td>Berechtigung zum benutzen</td><td>craftbook.ic.mc1234</td></tr><tr><td>Beschreibung</td><td>Pflanzt pflanzbare Dinge</td></tr></tbody></table><br><table><thead><tr><th>Ernte-Schild</th><th>Erklärung</th></tr></thead><tbody><tr><td>Schild Zeile 1</td><td>HARVEST</td></tr><tr><td>Schild Zeile 2</td><td>[MC1239]s</td></tr><tr><td>Schild Zeile 3</td><td>5 (Radius)</td></tr><tr><td>Schild Zeile 4</td><td>Leer Zeile</td></tr><tr><td>Berechtigung zum benutzen</td><td>craftbook.ic.mc1239</td></tr><tr><td>Beschreibung</td><td>Ernten in der Nähe</td></tr></tbody></table><br><table><thead><tr><th>Terraform-Schild</th><th>Erklärung</th></tr></thead><tbody><tr><td>Schild Zeile 1</td><td>TERRAFORMER</td></tr><tr><td>Schild Zeile 2</td><td>[MC1223]s</td></tr><tr><td>Schild Zeile 3</td><td>5 (Radius)</td></tr><tr><td>Schild Zeile 4</td><td>Leer Zeile</td></tr><tr><td>Berechtigung zum benutzen</td><td>craftbook.ic.mc1223</td></tr><tr><td>Beschreibung</td><td>Terraformt eine Fläche mit Knochenmehl</td></tr></tbody></table><br> |
+| Zusatz-Informationen | [https://craftbook.enginehub.org/en/3.x/](https://craftbook.enginehub.org/en/3.x/)<br> |
+
+---
+
+Plugins die benoetigt werden, Abhaengigkeiten mit anderen Plugins
+
+| Plugin-Name | Link |
+| ----------- | ------------ |
+| CMILib      | [https://www.spigotmc.org/resources/cmilib.87610/](https://www.spigotmc.org/resources/cmilib.87610/) |
+| CrashAPI    | [https://www.spigotmc.org/resources/crashapi.82229/](https://www.spigotmc.org/resources/crashapi.82229/) |
+| TabuuCore   | [https://www.spigotmc.org/resources/tabuucore.54173/](https://www.spigotmc.org/resources/tabuucore.54173/) |
