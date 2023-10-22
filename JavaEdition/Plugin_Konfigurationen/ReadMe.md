@@ -114,7 +114,7 @@
 | Plugin-Name          | **Mobarena** |
 | Plugin-Link          | [https://www.spigotmc.org/resources/mobarena.34110/](https://www.spigotmc.org/resources/mobarena.34110/) |
 | Command-Sammlung     | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/ma config reload</td><td>reload des Plugins</td></tr><tr><td>/ma addarena _MobarenaName_</td><td>fügt eine Mobarena hinzu</td></tr><tr><td>/ma setup _MobarenaName_</td><td>startet das Setup-Programm für die Konfiguration der Mobarena</td></tr><tr><td>/ma leave</td><td>die Mobarena verlassen</td></tr></tbody></table><br> |
-| Zusatz-Informationen | <br><table><thead><tr><th>Weitere wichtige Links</th></tr></thead><tbody><tr><td>[https://github.com/garbagemule/MobArena/wiki/Commands](https://github.com/garbagemule/MobArena/wiki/Commands)</td></tr><tr><td>[https://github.com/garbagemule/MobArena/wiki/Permissions](https://github.com/garbagemule/MobArena/wiki/Permissions)</td></tr></tbody></table><br><br> |
+| Zusatz-Informationen | <br><table><thead><tr><th>Weitere wichtige Links</th></tr></thead><tbody><tr><td>[https://github.com/garbagemule/MobArena/wiki/Commands](https://github.com/garbagemule/MobArena/wiki/Commands)</td></tr><tr><td>[https://github.com/garbagemule/MobArena/wiki/Permissions](https://github.com/garbagemule/MobArena/wiki/Permissions)</td></tr></tbody></table><br> |
 
 ---
 
@@ -139,10 +139,32 @@
 | Plugin-Name          | **Multiverse-Portals** |
 | Plugin-Link          | [https://dev.bukkit.org/projects/multiverse-portals](https://dev.bukkit.org/projects/multiverse-portals) |
 | Command-Sammlung     | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/mvp create _Portalnameame_</td><td>ein Portal erstellen</td></tr><tr><td>/mvp remove _Portalnameame_</td><td>ein Portal entfernen</td></tr><tr><td>/mvp select _Portalnameame_</td><td>ein Portal bearbeiten</td></tr></tbody></table><br><table><thead><tr><th colspan="3">Portal erstellen, mit WorldEdit</th></tr></thead><tbody><tr><td>#</td><td>Befehl</td><td>Erklärung</td></tr><tr><td>1</td><td>//wand</td><td>WorldEdit starten</td></tr><tr><td>2</td><td>//pos1 //pos2<br>**oder**<br>klick mit der Holzaxt</td><td>waehlt den Bereich des Portals aus</td></tr><tr><td>3</td><td>/mvp create _PortalnameA_</td><td>erstellt das Portal A</td></tr><tr><td>4</td><td>/mvp create _PortalnameB_</td><td>erstellt das Portal B</td></tr><tr><td>5</td><td>/mvp select _PortalnameA_</td><td>waehlt das Portal A aus</td></tr><tr><td>6</td><td>/mvp modify dest p:_PortalnameB_</td><td>setzt das Ziel von Portal A auf Portal B</td></tr><tr><td>7</td><td>/mvp select _PortalnameB_</td><td>waehlt das Portal A aus</td></tr><tr><td>8</td><td>/mvp modify dest p:_PortalnameA_</td><td>setzt das Ziel von Portal B auf Portal A</td></tr></tbody></table><br> |
-| Zusatz-Informationen | <br><table><thead><tr><th>Weitere wichtige Links</th></tr></thead><tbody><tr><td>[https://github.com/Multiverse/Multiverse-Core/wiki/Basics-%28Portals%29](https://github.com/Multiverse/Multiverse-Core/wiki/Basics-%28Portals%29)</td></tr></tbody></table><br><br> |
+| Zusatz-Informationen | <br><table><thead><tr><th>Weitere wichtige Links</th></tr></thead><tbody><tr><td>[https://github.com/Multiverse/Multiverse-Core/wiki/Basics-%28Portals%29](https://github.com/Multiverse/Multiverse-Core/wiki/Basics-%28Portals%29)</td></tr></tbody></table><br> |
 
 ---
 
+| #                | Beschreibung        |
+| ---------------- | ------------------- |
+| Plugin-Name      | **PermissionShopZ** |
+| Plugin-Link      | [https://www.spigotmc.org/resources/permissionshopz-the-1-permission-shop.45547/](https://www.spigotmc.org/resources/permissionshopz-the-1-permission-shop.45547/) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/pshop save</td><td>Dateien des Berechtigungs-Shops speichern</td></tr><tr><td>/pshop edit</td><td>Dateien des Berechtigungs-Shops bearbeiten</td></tr><tr><td>/pshop load</td><td>Dateien des Berechtigungs-Shops laden</td></tr></tbody></table><br> |
 
+---
+
+| #                | Beschreibung |
+| ---------------- | ------------ |
+| Plugin-Name      | **Quests**   |
+| Plugin-Link      | [https://www.spigotmc.org/resources/quests-1-8-1-18-set-up-goals-for-players.23696/](https://www.spigotmc.org/resources/quests-1-8-1-18-set-up-goals-for-players.23696/) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/quest admin reload</td><td>reload des Plugins</td></tr><tr><td>/quest admin moddata fullreset _Spielername_</td><td>Alle Quest-Daten des Spielers loeschen</td></tr><tr><td>/quest admin moddata complete _Spielername_ _Questname_</td><td>Ein Quest auf Erfolgreich setzen</td></tr></tbody></table><br> |
+
+---
+
+| #                | Beschreibung    |
+| ---------------- | --------------- |
+| Plugin-Name      | **ServerSigns** |
+| Plugin-Link      | [https://github.com/serversigns/ServerSigns/releases](https://github.com/serversigns/ServerSigns/releases) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/svs reloadSigns</td><td>reload des Plugins</td></tr><tr><td>/svs create</td><td>ein ServerSigns-Schild erstellen</td></tr><tr><td>/svs delete</td><td>ein ServerSigns-Schild loeschen</td></tr></tbody></table><br><table><thead><tr><th colspan="3">ein Beispiel-Schild</th></tr></thead><tbody><tr><td>#</td><td>Befehl</td><td>Erklärung</td></tr><tr><td>1</td><td>/svs add <msg> Hi <player>!                        </td><td>Begrueßt den Spieler</td></tr><tr><td>2</td><td>/svs option frage1 question Willst du SPIELEN?     </td><td>definiert die Frage</td></tr><tr><td>3</td><td>/svs option frage1 add Yes Deine Antwort war 'YES' </td><td>definiert die Antwort</td></tr><tr><td>4</td><td>/svs option frage1 add No Deine Antwort war 'NO'   </td><td>definiert die Antwort</td></tr><tr><td>5</td><td>/svs add <displayOption> frage1                    </td><td>fuegt die Frage hinzu</td></tr><tr><td>6</td><td>/svs add <if> checkOption:frage1=yes               </td><td>if Abfrage</td></tr><tr><td>7</td><td>/svs add <msg> du hast jetzt wirklich 'JA' getippt </td><td>wenn 'JA' ist</td></tr><tr><td>8</td><td>/svs add <endif></td><td>if ende</td></tr></tbody></table> |
+
+---
 
 
