@@ -38,6 +38,6 @@
 | ---------------- | ------------- |
 | Plugin-Name      | **ChestShop** |
 | Plugin-Link      | [https://www.spigotmc.org/resources/chestshop.51856/](https://www.spigotmc.org/resources/chestshop.51856/) |
-| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/chestshop reload</td><td>reload des Plugins</td></tr><tr><td><br>Schild für eine Shop-Kiste<br>Zeil 1: Admin Shop **oder** leer lassen (Spielername wird automatisch eingefügt)<br>Zeil 2: 123 Menge<br>Zeil 3: B 123 : 321 S (B=kaufen / S=verkaufen)<br>Zeil 4: ? = Item wird automatisch ausgefüllt<br></td></tr></tbody></table><br> |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/chestshop reload</td><td>reload des Plugins</td></tr></tbody></table><br><table><thead><tr><th colspan="3">Schild für eine Shop-Kiste</th></tr></thead><tbody><tr><td>Zeile</td><td>Inhalt</td><td>Beschreibung</td></tr><tr><td>1</td><td>Admin Shop</td><td>definiert die Kiste als Admin-Shop-Kiste</td></tr><tr><td>2</td><td>123</td><td>definiert die Menge die pro Kauf/Verkauf ausgegeben wird</td></tr><tr><td>3</td><td>B123:321S</td><td>definiert den Verkaufs bzw. Kaufpreis (B=kaufen / S=verkaufen)</td></tr><tr><td>4</td><td>?</td><td>definiert das Item, wird automatisch ausgefüllt</td></tr></tbody></table><br> |
 
 ---
