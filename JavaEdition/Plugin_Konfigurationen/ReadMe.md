@@ -6,7 +6,7 @@
 | ---------------- | ---------------------- |
 | Plugin-Name      | **AnimatedScoreboard** |
 | Plugin-Link      | [https://www.spigotmc.org/resources/animatedscoreboard.20848/](https://www.spigotmc.org/resources/animatedscoreboard.20848/) |
-| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>```/animatedscoreboard reload```</td><td>Reload des Plugins</td></tr></tbody></table><br> |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/animatedscoreboard reload</td><td>Reload des Plugins</td></tr></tbody></table><br> |
 
 ---
 
@@ -14,7 +14,7 @@
 | ---------------- | ----------------- |
 | Plugin-Name      | **BeastWithDraw** |
 | Plugin-Link      | [https://www.spigotmc.org/resources/beastwithdraw-multy-withdraw.13896/](https://www.spigotmc.org/resources/beastwithdraw-multy-withdraw.13896/) |
-| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>```/exp give _Spielername_ 50L```</td><td>gibt dem Spieler 50 Level</td></tr><tr><td>```/exp give _Spielername_ 50```</td><td>gibt dem Spieler 50 XP</td></tr><tr><td>```/exp set _Spielername_ 3L```</td><td>setzt den Spieler auf Level 3</td></tr><tr><td>```/exp set _Spielername_ 3```</td><td>setzt den Spieler auf 3 XP</td></tr><tr><td>```/beastwithdraw reload```</td><td>Reload des Plugins</td></tr></tbody></table><br> |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/exp give _Spielername_ 50L</td><td>gibt dem Spieler 50 Level</td></tr><tr><td>/exp give _Spielername_ 50</td><td>gibt dem Spieler 50 XP</td></tr><tr><td>/exp set _Spielername_ 3L</td><td>setzt den Spieler auf Level 3</td></tr><tr><td>/exp set _Spielername_ 3</td><td>setzt den Spieler auf 3 XP</td></tr><tr><td>/beastwithdraw reload</td><td>Reload des Plugins</td></tr></tbody></table><br> |
 
 ---
 
