@@ -68,10 +68,11 @@
 
 ---
 
-| #                | Beschreibung    |
-| ---------------- | --------------- |
-| Plugin-Name      | **EssentialsX** |
-| Plugin-Link      | [https://essentialsx.net/downloads.html?branch=stable](https://essentialsx.net/downloads.html?branch=stable) |
-| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/setwarp <name></td><td>erstellt einen Warp-Punkt</td></tr><tr><td>/delwarp <name></td><td>löscht einen Warp-Punkt</td></tr><tr><td>/warp <name></td>   <td>bringt dich zu einem Warp-Punkt</td></tr></tbody></table><br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/eco give _Spielername_ 123</td><td>fügt der Economy des Spieler 123 hinzu</td></tr><tr><td>/eco set _Spielername_ 123 </td><td>setzt die Economy des Spielers auf 123</td></tr><tr><td>/eco take _Spielername_ 123</td><td>entfernt der Economy 123 des Spielers</td></tr></tbody></table><br> |
+| #                    | Beschreibung    |
+| -------------------- | --------------- |
+| Plugin-Name          | **EssentialsX** |
+| Plugin-Link          | [https://essentialsx.net/downloads.html?branch=stable](https://essentialsx.net/downloads.html?branch=stable) |
+| Command-Sammlung     | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/setwarp <name></td><td>erstellt einen Warp-Punkt</td></tr><tr><td>/delwarp <name></td><td>löscht einen Warp-Punkt</td></tr><tr><td>/warp <name></td>   <td>bringt dich zu einem Warp-Punkt</td></tr></tbody></table><br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/eco give _Spielername_ 123</td><td>fügt der Economy des Spieler 123 hinzu</td></tr><tr><td>/eco set _Spielername_ 123 </td><td>setzt die Economy des Spielers auf 123</td></tr><tr><td>/eco take _Spielername_ 123</td><td>entfernt der Economy 123 des Spielers</td></tr></tbody></table><br> |
+| Zusatz-Informationen | <br><table><thead><tr><th>AddOns</th></tr></thead><tbody><tr><td>EssentialsXChat</td></tr><tr><td>EssentialsXProtect</td></tr><tr><td>EssentialsXSpawn</td></tr><tr><td>[https://essentialsx.net/downloads.html?branch=stable](https://essentialsx.net/downloads.html?branch=stable)</td></tr></tbody></table><br>
 
 ---
