@@ -24,12 +24,19 @@
 
 ---
 
-**Chat von der Console aus leeren:**
+**Chat von der Console aus "leeren":**
 
 ```
 
 tellraw @a ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
 
 ```
+
+---
+
+**Spielerdaten "löschen":**
+
+<table><thead><tr><th>Aktion</th><th>Erklärung</th></tr></thead><tbody><tr><td>../_Weltname_/playerdata/_UUID-des-Spielers_.yml</td><td>Datei löschen</td></tr><tr><td>../plugins/essentials/userdata/_UUID-des-Spielers_.yml</td><td>Datei löschen</td></tr><tr><td>usercache.json</td><td>Datei bearbeiten</td></tr><tr><td>../plugins/ItemSorter/data.yml</td><td>Plugin: ItemSorter, Datei bearbeiten</td></tr><tr><td>/lp user _Spielername_ clear</td><td>Plugin: LuckPerms, Befehl ausführen</td></tr><tr><td>/quests admin moddata fullreset _Spielername_</td><td>Plugin: Quests, Befehl ausführen</td></tr></tbody></table>
+<br>
 
 ---
