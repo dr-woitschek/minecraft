@@ -6,7 +6,7 @@
 | ---------------- | ---------------------- |
 | Plugin-Name      | **AnimatedScoreboard** |
 | Plugin-Link      | [https://www.spigotmc.org/resources/animatedscoreboard.20848/](https://www.spigotmc.org/resources/animatedscoreboard.20848/) |
-| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/animatedscoreboard reload</td><td>Reload des Plugins</td></tr></tbody></table><br> |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/animatedscoreboard reload</td><td>reload des Plugins</td></tr></tbody></table><br> |
 
 ---
 
@@ -76,3 +76,31 @@
 | Zusatz-Informationen | <br><table><thead><tr><th>Weitere AddOns</th></tr></thead><tbody><tr><td>**EssentialsXChat**</td></tr><tr><td>**EssentialsXProtect**</td></tr><tr><td>**EssentialsXSpawn**</td></tr><tr><td>[https://essentialsx.net/downloads.html?branch=stable](https://essentialsx.net/downloads.html?branch=stable)</td></tr></tbody></table><br><table><thead><tr><th>Weitere wichtige Links</th></tr></thead><tbody><tr><td>[https://wiki.mc-ess.net/wiki/Main_Page](https://wiki.mc-ess.net/wiki/Main_Page)</td></tr><tr><td>[https://wiki.mc-ess.net/doc/](https://wiki.mc-ess.net/doc/)</td></tr></tbody></table><br> |
 
 ---
+
+| #                | Beschreibung   |
+| ---------------- | -------------- |
+| Plugin-Name      | **ItemSorter** |
+| Plugin-Link      | [https://www.spigotmc.org/resources/itemsorter.85370/](https://www.spigotmc.org/resources/itemsorter.85370/) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/iso reload</td><td>reload des Plugins</td></tr></tbody></table><br> |
+
+---
+
+| #                | Beschreibung |
+| ---------------- | ------------ |
+| Plugin-Name      | **Jobs**     |
+| Plugin-Link      | [https://www.spigotmc.org/resources/jobs-reborn.4216/](https://www.spigotmc.org/resources/jobs-reborn.4216/) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/jobs reload</td><td>reload des Plugins</td></tr><tr><td>/jobs browse</td><td>öffnet das Spielermenü</td></tr></tbody></table><br> |
+
+---
+
+| #                | Beschreibung  |
+| ---------------- | ------------- |
+| Plugin-Name      | **LuckPerms** |
+| Plugin-Link      | [https://www.spigotmc.org/resources/luckperms.28140/](https://www.spigotmc.org/resources/luckperms.28140/) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/lp user _Spielername_ info</td><td>Spieler-Informationen ausgeben</td></tr><tr><td>/lp user _Spielername_ permission info</td><td>Spieler-Berechtigungen ausgeben</td></tr><tr><td>/lp export _Dateiname_</td><td>Alle Einstellungen in eine Datei exportieren</td></tr><tr><td>/lp import _Dateiname_</td><td>Alle Einstellungen aus einer Datei importieren</td></tr><tr><td>/lp user _Spielername_ permission set _minecraft_ true/false</td><td>einem Spieler eine Berechtigung setzten</td></tr><tr><td>/lp user _Spielername_ permission set _minecraft.*_ true/false</td><td>einem Spieler eine Gruppe an Berechtigung setzten</td></tr><tr><td>/lp user _Spielername_ permission unset _minecraft_  </td><td>einem Spieler eine Berechtigung entfernen</td></tr><tr><td>/lp user _Spielername_ permission unset _minecraft.*_</td><td>einem Spieler eine Gruppe an Berechtigung entfernen</td></tr><tr><td>/lp user _Spielername_ group add _Gruppenname_</td><td>einen Spieler einer Gruppe hinzufügen</td></tr><tr><td>/lp user _Spielername_ group remove _Gruppenname_</td><td>einen Spieler aus einer Gruppe entfernen</td></tr></tbody></table><br> |
+
+---
+
+
+
+
