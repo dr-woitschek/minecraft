@@ -101,6 +101,48 @@
 
 ---
 
+| #                | Beschreibung  |
+| ---------------- | ------------- |
+| Plugin-Name      | **Minepacks** |
+| Plugin-Link      | [https://dev.bukkit.org/projects/minepacks](https://dev.bukkit.org/projects/minepacks) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/backpack reload</td><td>reload des Plugins</td></tr></tbody></table><br> |
+
+---
+
+| #                    | Beschreibung |
+| -------------------- | ------------ |
+| Plugin-Name          | **Mobarena** |
+| Plugin-Link          | [https://www.spigotmc.org/resources/mobarena.34110/](https://www.spigotmc.org/resources/mobarena.34110/) |
+| Command-Sammlung     | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/ma config reload</td><td>reload des Plugins</td></tr><tr><td>/ma addarena _MobarenaName_</td><td>fügt eine Mobarena hinzu</td></tr><tr><td>/ma setup _MobarenaName_</td><td>startet das Setup-Programm für die Konfiguration der Mobarena</td></tr><tr><td>/ma leave</td><td>die Mobarena verlassen</td></tr></tbody></table><br> |
+| Zusatz-Informationen | <br><table><thead><tr><th>Weitere wichtige Links</th></tr></thead><tbody><tr><td>[https://github.com/garbagemule/MobArena/wiki/Commands](https://github.com/garbagemule/MobArena/wiki/Commands)</td></tr><tr><td>[https://github.com/garbagemule/MobArena/wiki/Permissions](https://github.com/garbagemule/MobArena/wiki/Permissions)</td></tr></tbody></table><br><br> |
+
+---
+
+| #                | Beschreibung        |
+| ---------------- | ------------------- |
+| Plugin-Name      | **Multiverse-Core** |
+| Plugin-Link      | [https://dev.bukkit.org/projects/multiverse-core](https://dev.bukkit.org/projects/multiverse-core) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/mvtp _Spielername_ _Weltname_</td><td>Spieler in eine Welt teleportieren</td></tr></tbody></table><br> |
+
+---
+
+| #                | Beschreibung               |
+| ---------------- | -------------------------- |
+| Plugin-Name      | **Multiverse-Inventories** |
+| Plugin-Link      | [https://dev.bukkit.org/projects/multiverse-inventories](https://dev.bukkit.org/projects/multiverse-inventories) |
+| Command-Sammlung | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/mvinv group</td><td>erstellt eine Invetargruppe, startet eine _Art_ Setup</td></tr><tr><td>/mvinv addworld _Weltnamen_ _share_verboten_</td><td>eine Welt einer _Verboten_-Gruppe hinzufügen</td></tr><tr><td>/mvinv addworld _Weltnamen_ _share_normal_  </td><td>eine Welt einer _Normal_-Gruppe hinzufügen</td></tr></tbody></table><br> |
+
+---
+
+| #                    | Beschreibung           |
+| -------------------- | ---------------------- |
+| Plugin-Name          | **Multiverse-Portals** |
+| Plugin-Link          | [https://dev.bukkit.org/projects/multiverse-portals](https://dev.bukkit.org/projects/multiverse-portals) |
+| Command-Sammlung     | <br><table><thead><tr><th>Befehl</th><th>Erklärung</th></tr></thead><tbody><tr><td>/mvp create _Portalnameame_</td><td>ein Portal erstellen</td></tr><tr><td>/mvp remove _Portalnameame_</td><td>ein Portal entfernen</td></tr><tr><td>/mvp select _Portalnameame_</td><td>ein Portal bearbeiten</td></tr></tbody></table><br><table><thead><tr><th colspan="3">Portal erstellen, mit WorldEdit</th></tr></thead><tbody><tr><td>#</td><td>Befehl</td><td>Erklärung</td></tr><tr><td>1</td><td>//wand</td><td>WorldEdit starten</td><td>2</td><td>//pos1 //pos2<br>**oder**<br>klick mit der Holzaxt</td><td>waehlt den Bereich des Portals aus</td><td>3</td><td>/mvp create _PortalnameA_</td><td>erstellt das Portal A</td><td>4</td><td>/mvp create _PortalnameB_</td><td>erstellt das Portal B</td><td>5</td><td>/mvp select _PortalnameA_</td><td>waehlt das Portal A aus</td><td>6</td><td>/mvp modify dest p:_PortalnameB_</td><td>setzt das Ziel von Portal A auf Portal B</td><td>7</td><td>/mvp select _PortalnameB_</td><td>waehlt das Portal A aus</td><td>8</td><td>/mvp modify dest p:_PortalnameA_</td><td>setzt das Ziel von Portal B auf Portal A</td></tr></tbody></table><br> |
+| Zusatz-Informationen | <br><table><thead><tr><th>Weitere wichtige Links</th></tr></thead><tbody><tr><td>[https://github.com/Multiverse/Multiverse-Core/wiki/Basics-%28Portals%29](https://github.com/Multiverse/Multiverse-Core/wiki/Basics-%28Portals%29)</td></tr></tbody></table><br><br> |
+
+---
+
 
 
 
