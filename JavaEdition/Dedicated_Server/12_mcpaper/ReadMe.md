@@ -88,16 +88,16 @@ drwxr-xr-x 3 root    root    4,0K Okt 23 17:40 ../
 
 Switch User und auf gehts:
 
-|   #   | Befehl                                     | Erklärung                                                                                                              |
-| :---: | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-|   1   | ```sudo su - mcpaper```                    | Benutzerwechsel                                                                                                        |
-|   2   | ```cd ~```                                 | wechle ins Home-Verzeichnis                                                                                            |
-|   3   | ```mkdir Server```                         | erstelle einen Ordner                                                                                                  |
-|   4   | ```mv paper-1.20.1-196.jar Server/```      | verschiebe die Datei in den neu erstellten Ordner                                                                      |
-|   5   | ```cd ~/Server/```                         | wechle ins Verzeichnis                                                                                                 |
-|   6   | ```screen```                               | starte Screen                                                                                                          |
-|   7   | ```java -jar paper-1.20.1-196.jar nogui``` | 1. Server start                                                                                                        |
-|   8   | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/learn/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/1_Server_start.jpg"> |
-|   9   | ```echo eula=true >> eula.txt```           | Eula.txt erstellen                                                                                                     |
-|  10   | ```java -jar paper-1.20.1-196.jar nogui``` | 2. Server start                                                                                                        |
-|  11   | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/learn/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/2_Server_start.jpg"> |
+|   #   | Befehl                                     | Erklärung                                                                                                                  |
+| :---: | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+|   1   | ```sudo su - mcpaper```                    | Benutzerwechsel                                                                                                            |
+|   2   | ```cd ~```                                 | wechle ins Home-Verzeichnis                                                                                                |
+|   3   | ```mkdir Server```                         | erstelle einen Ordner                                                                                                      |
+|   4   | ```mv paper-1.20.1-196.jar Server/```      | verschiebe die Datei in den neu erstellten Ordner                                                                          |
+|   5   | ```cd ~/Server/```                         | wechle ins Verzeichnis                                                                                                     |
+|   6   | ```screen```                               | starte Screen                                                                                                              |
+|   7   | ```java -jar paper-1.20.1-196.jar nogui``` | 1. Server start                                                                                                            |
+|   8   | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/1_Server_start.jpg"> |
+|   9   | ```echo eula=true >> eula.txt```           | Eula.txt erstellen                                                                                                         |
+|  10   | ```java -jar paper-1.20.1-196.jar nogui``` | 2. Server start                                                                                                            |
+|  11   | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/2_Server_start.jpg"> |
