@@ -97,7 +97,18 @@ Switch User und auf gehts:
 |   5   | ```cd ~/Server/```                         | wechle ins Verzeichnis                                                                                                     |
 |   6   | ```screen```                               | starte Screen                                                                                                              |
 |   7   | ```java -jar paper-1.20.1-196.jar nogui``` | 1. Server start                                                                                                            |
-|   8   | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/1_Server_start.jpg"> |
-|   9   | ```echo eula=true >> eula.txt```           | Eula.txt erstellen                                                                                                         |
-|  10   | ```java -jar paper-1.20.1-196.jar nogui``` | 2. Server start                                                                                                            |
-|  11   | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/2_Server_start.jpg"> |
+|       | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/1_Server_start.jpg"> |
+|   8   | ```echo eula=true >> eula.txt```           | Eula.txt erstellen                                                                                                         |
+|   9   | ```java -jar paper-1.20.1-196.jar nogui``` | 2. Server start                                                                                                            |
+|       | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/2_Server_start.jpg"> |
+
+---
+
+Weitere Informationen:
+* Server Konfigurationsdatei _server.properties_ [https://minecraft.wiki/w/Server.properties](https://minecraft.wiki/w/Server.properties)
+* Server Start Parameter [https://docs.papermc.io/paper/aikars-flags](https://docs.papermc.io/paper/aikars-flags)
+* der _screen_-Befehl [https://wiki.ubuntuusers.de/Screen/](https://wiki.ubuntuusers.de/Screen/)
+  - screen -list: Liste aller screens Ausgeben
+  - screen holen: screen -x
+  - screen verlassen: screen A + D (A + D als Tastenkombination, wie Alt + F4)
+
