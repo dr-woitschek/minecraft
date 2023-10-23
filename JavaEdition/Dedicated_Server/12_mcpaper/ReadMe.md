@@ -58,7 +58,7 @@ HTTP request sent, awaiting response... 200 OK
 Length: 43230582 (41M) [application/java-archive]
 Saving to: ‘/opt/mcpaper/paper-1.20.1-196.jar’
 
-/opt/mcpaper/paper-1.20.1-196.jar     100%[=======================================================================>]  41,23M  12,0MB/s in 3,5s
+/opt/mcpaper/paper-1.20.1-196.jar     100%[====================================================>]  41,23M  12,0MB/s in 3,5s
 
 2023-10-23 17:42:04 (11,8 MB/s) - ‘/opt/mcpaper/paper-1.20.1-196.jar’ saved [43230582/43230582]
 
