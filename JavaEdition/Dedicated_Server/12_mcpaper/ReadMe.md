@@ -88,25 +88,16 @@ drwxr-xr-x 3 root    root    4,0K Okt 23 17:40 ../
 
 Switch User und auf gehts:
 
-|   #   | Befehl                                | Erklärung                                         |
-| :---: | ------------------------------------- | ------------------------------------------------- |
-|   1   | ```sudo su - mcpaper```               | Benutzerwechsel                                   |
-|   2   | ```cd ~```                            | wechle ins Home-Verzeichnis                       |
-|   3   | ```mkdir Server```                    | erstelle einen Ordner                             |
-|   4   | ```mv paper-1.20.1-196.jar Server/``` | verschiebe die Datei in den neu erstellten Ordner |
-|   5   | ```cd ~/Server/```                    | wechle ins Verzeichnis                            |
-|   6   | ```screen```                          | starte Screen                                     |
-
-
-
-| 1. Server start | ```java -jar paper-1.20.1-196.jar nogui``` | 
-| --------------- | ------------------------------------------ |
-| Ausgabe         | ```Downloading mojang_1.20.1.jar<br>Applying patches<br>Starting org.bukkit.craftbukkit.Main<br>*** Warning, you've not updated in a while! ***<br>*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***<br>System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.8.1+1-Ubuntu-0ubuntu122.04) Host: Linux 5.15.0-87-generic (amd64)<br>Loading libraries, please wait...<br>[17:56:47 WARN]: Failed to load eula.txt<br>[17:56:47 INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.<br>``` |
-
-
-
-| Anpassungen        | Befehl                                     |
-| ------------------ | ------------------------------------------ |
-| Eula.txt erstellen | ```echo eula=true >> eula.txt```           |
-| 2. Server start    | ```java -jar paper-1.20.1-196.jar nogui``` |
-| Ausgabe            | ```Starting org.bukkit.craftbukkit.Main<br>*** Warning, you've not updated in a while! ***<br>*** Please download a new build as per instructions from https://papermc.io/downloads/paper ***<br>System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.8.1+1-Ubuntu-0ubuntu122.04) Host: Linux 5.15.0-87-generic (amd64)<br>Loading libraries, please wait...<br>[18:16:05 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'<br>[18:16:05 INFO]: Found new data pack file/bukkit, loading it automatically<br>[18:16:07 INFO]: Loaded 7 recipes<br>[18:16:08 INFO]: Starting minecraft server version 1.20.1<br>[18:16:08 INFO]: Loading properties<br>[18:16:08 INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)<br>[18:16:08 INFO]: Server Ping Player Sample Count: 12<br>[18:16:08 INFO]: Using 4 threads for Netty based IO<br>[18:16:09 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads<br>[18:16:09 WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.<br>    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/<br>    For more information please visit: https://github.com/PaperMC/Paper/issues/8948<br>[18:16:09 INFO]: Default game type: SURVIVAL<br>[18:16:09 INFO]: Generating keypair<br>[18:16:09 INFO]: Starting Minecraft server on *:25565<br>[18:16:09 INFO]: Using epoll channel type<br>[18:16:09 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.<br>[18:16:09 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.<br>[18:16:09 INFO]: Preparing level "world"<br>[18:16:27 INFO]: Preparing start region for dimension minecraft:overworld<br>[18:16:27 INFO]: Time elapsed: 123 ms<br>[18:16:27 INFO]: Preparing start region for dimension minecraft:the_nether<br>[18:16:27 INFO]: Time elapsed: 60 ms<br>[18:16:27 INFO]: Preparing start region for dimension minecraft:the_end<br>[18:16:27 INFO]: Time elapsed: 64 ms<br>[18:16:27 INFO]: Running delayed init tasks<br>[18:16:27 INFO]: Done (19.231s)! For help, type "help"<br>[18:16:27 INFO]: Timings Reset``` |
+|   #   | Befehl                                     | Erklärung                                                                                                              |
+| :---: | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+|   1   | ```sudo su - mcpaper```                    | Benutzerwechsel                                                                                                        |
+|   2   | ```cd ~```                                 | wechle ins Home-Verzeichnis                                                                                            |
+|   3   | ```mkdir Server```                         | erstelle einen Ordner                                                                                                  |
+|   4   | ```mv paper-1.20.1-196.jar Server/```      | verschiebe die Datei in den neu erstellten Ordner                                                                      |
+|   5   | ```cd ~/Server/```                         | wechle ins Verzeichnis                                                                                                 |
+|   6   | ```screen```                               | starte Screen                                                                                                          |
+|   7   | ```java -jar paper-1.20.1-196.jar nogui``` | 1. Server start                                                                                                        |
+|   8   | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/learn/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/1_Server_start.jpg"> |
+|   9   | ```echo eula=true >> eula.txt```           | Eula.txt erstellen                                                                                                     |
+|  10   | ```java -jar paper-1.20.1-196.jar nogui``` | 2. Server start                                                                                                        |
+|  11   | **Konsolenausgabe**                        | <img src="https://github.com/dr-woitschek/learn/blob/main/JavaEdition/Dedicated_Server/12_mcpaper/2_Server_start.jpg"> |
