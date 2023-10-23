@@ -115,8 +115,8 @@ Loading libraries, please wait...
 
 ```
 
-Eula.txt erstellen: ```echo eula=true >> eula.txt```
-Zweiter Server start: ```java -jar paper-1.20.1-196.jar nogui```
+* Eula.txt erstellen: ```echo eula=true >> eula.txt```
+* Zweiter Server start: ```java -jar paper-1.20.1-196.jar nogui```
 
 Ausgabe:
 
