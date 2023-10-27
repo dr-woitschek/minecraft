@@ -2,8 +2,6 @@
 
 ---
 
-**Google war mein Freund um alles zusammenzufassen xD**
-
 Edit mit Befehl: ```sudo nano /etc/sysctl.conf```
 
 Edit:
