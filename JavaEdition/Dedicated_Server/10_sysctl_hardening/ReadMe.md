@@ -21,7 +21,7 @@ Edit mit Befehl:
 | #           | Beschreibung                |
 | ----------- | --------------------------- |
 | Einstellung | **net.ipv4.ip_forward = 0** |
-| Erklärung   | <p>Die Einstellung `net.ipv4.ip_forward` ist eine wichtige Konfigurationsmöglichkeit in Linux, die die IP-Paketweiterleitung auf einem System steuert. IP-Paketweiterleitung bezieht sich auf die Fähigkeit eines Linux-Systems, IP-Pakete von einer Netzwerkschnittstelle zu empfangen und diese Pakete an eine andere Netzwerkschnittstelle weiterzuleiten, anstatt sie nur für die lokale Verarbeitung zu behalten.</p><p>- Wenn `net.ipv4.ip_forward` auf den Wert `0` (standardmäßig) gesetzt ist, ist die IP-Weiterleitung deaktiviert. Das bedeutet, dass das System keine IP-Pakete von einer Schnittstelle empfängt und sie an eine andere Schnittstelle weiterleitet. Das System verarbeitet nur den lokalen Verkehr.</p><p>- Wenn `net.ipv4.ip_forward` auf den Wert `1` gesetzt wird, wird die IP-Weiterleitung aktiviert. Das System fungiert dann als IP-Router und kann IP-Pakete zwischen den angeschlossenen Netzwerkschnittstellen weiterleiten. Dies ist nützlich, wenn das Linux-System als Router oder Gateway zwischen verschiedenen Netzwerken fungieren soll.<br>Die Aktivierung der IP-Weiterleitung ist erforderlich, wenn ein Linux-System als Router oder Gateway in einem Netzwerk eingesetzt werden soll. Es ermöglicht dem System, Datenverkehr zwischen verschiedenen Netzwerkschnittstellen weiterzuleiten, wodurch der Datenaustausch zwischen Netzwerken ermöglicht wird. Dies ist besonders wichtig in komplexen Netzwerktopologien, in denen Datenverkehr zwischen Subnetzen oder verschiedenen Netzwerken geroutet werden muss.<br>Es ist jedoch wichtig zu beachten, dass die Aktivierung der IP-Weiterleitung auch Sicherheitsüberlegungen erfordert, da ein System, das als Router fungiert, den Datenverkehr zwischen Netzwerken kontrolliert. Es sollte angemessen konfiguriert und abgesichert werden, um unerwünschten Datenverkehr zu verhindern und die Sicherheit des Netzwerks zu gewährleisten.</p> |
+| Erklärung   | <p>Die Einstellung `net.ipv4.ip_forward` ist eine wichtige Konfigurationsmöglichkeit in Linux, die die IP-Paketweiterleitung auf einem System steuert. IP-Paketweiterleitung bezieht sich auf die Fähigkeit eines Linux-Systems, IP-Pakete von einer Netzwerkschnittstelle zu empfangen und diese Pakete an eine andere Netzwerkschnittstelle weiterzuleiten, anstatt sie nur für die lokale Verarbeitung zu behalten.</p><p>Wenn `net.ipv4.ip_forward` auf den Wert `0` (standardmäßig) gesetzt ist, ist die IP-Weiterleitung deaktiviert. Das bedeutet, dass das System keine IP-Pakete von einer Schnittstelle empfängt und sie an eine andere Schnittstelle weiterleitet. Das System verarbeitet nur den lokalen Verkehr.</p><p>Wenn `net.ipv4.ip_forward` auf den Wert `1` gesetzt wird, wird die IP-Weiterleitung aktiviert. Das System fungiert dann als IP-Router und kann IP-Pakete zwischen den angeschlossenen Netzwerkschnittstellen weiterleiten. Dies ist nützlich, wenn das Linux-System als Router oder Gateway zwischen verschiedenen Netzwerken fungieren soll.<br>Die Aktivierung der IP-Weiterleitung ist erforderlich, wenn ein Linux-System als Router oder Gateway in einem Netzwerk eingesetzt werden soll. Es ermöglicht dem System, Datenverkehr zwischen verschiedenen Netzwerkschnittstellen weiterzuleiten, wodurch der Datenaustausch zwischen Netzwerken ermöglicht wird. Dies ist besonders wichtig in komplexen Netzwerktopologien, in denen Datenverkehr zwischen Subnetzen oder verschiedenen Netzwerken geroutet werden muss.<br>Es ist jedoch wichtig zu beachten, dass die Aktivierung der IP-Weiterleitung auch Sicherheitsüberlegungen erfordert, da ein System, das als Router fungiert, den Datenverkehr zwischen Netzwerken kontrolliert. Es sollte angemessen konfiguriert und abgesichert werden, um unerwünschten Datenverkehr zu verhindern und die Sicherheit des Netzwerks zu gewährleisten.</p> |
 
 ---
 
@@ -39,6 +39,110 @@ Edit mit Befehl:
 
 ---
 
+| #           | Beschreibung         |
+| ----------- | -------------------- |
+| Einstellung | **kernel.sysrq = 0** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                 |
+| ----------- | ---------------------------- |
+| Einstellung | **kernel.core_uses_pid = 1** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                                                             |
+| ----------- | ------------------------------------------------------------------------ |
+| Einstellung | **net.ipv4.tcp_syncookies = 1** <br> **net.ipv4.tcp_synack_retries = 5** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                                                                               |
+| ----------- | ------------------------------------------------------------------------------------------ |
+| Einstellung | **net.ipv4.conf.all.send_redirects = 0** <br> **net.ipv4.conf.default.send_redirects = 0** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                                  |
+| ----------- | --------------------------------------------- |
+| Einstellung | **net.ipv4.conf.all.accept_source_route = 0** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                                                                               |
+| ----------- | ------------------------------------------------------------------------------------------ |
+| Einstellung | **net.ipv4.conf.all.accept_redirects = 0** <br> **net.ipv4.conf.all.secure_redirects = 0** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                                                                                                                                                                                                                                          |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Einstellung | **net.ipv4.conf.all.log_martians = 1** <br> **net.ipv4.conf.default.log_martians = 1** <br> **net.ipv4.conf.default.accept_source_route = 0** <br> **net.ipv4.conf.default.accept_redirects = 0** <br> **net.ipv4.conf.default.secure_redirects = 0** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                                                                               |
+| ----------- | ------------------------------------------------------------------------------------------ |
+| Einstellung | **net.ipv4.tcp_rmem = 4096 87380 8388608** <br> **net.ipv4.tcp_wmem = 4096 87380 8388608** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                                 |
+| ----------- | -------------------------------------------- |
+| Einstellung | **net.ipv4.icmp_echo_ignore_broadcasts = 1** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                        |
+| ----------- | ----------------------------------- |
+| Einstellung | **net.ipv4.conf.all.rp_filter = 1** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                            |
+| ----------- | --------------------------------------- |
+| Einstellung | **net.ipv4.conf.default.rp_filter = 1** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung            |
+| ----------- | ----------------------- |
+| Einstellung | **fs.file-max = 65535** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung               |
+| ----------- | -------------------------- |
+| Einstellung | **kernel.pid_max = 65536** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                                  |
+| ----------- | --------------------------------------------- |
+| Einstellung | **net.ipv4.ip_local_port_range = 2000 65000** |
+| Erklärung   | <p></p> |
+
+---
+
+| #           | Beschreibung                 |
+| ----------- | ---------------------------- |
+| Einstellung | **net.ipv4.tcp_rfc1337 = 1** |
+| Erklärung   | <p></p> |
+
+---
 
 Reload, Befehl: ```sudo sysctl -p```
 
