@@ -154,3 +154,5 @@ Anmerkung: sollte Kernel panic entstehen ```kernel.panic=10```
 
 _Weiterführende Informationen:_
 * [systemctl](https://wiki.ubuntuusers.de/systemd/systemctl/)
+* [ip-sysctl](https://www.kernel.org/doc/Documentation/networking/ip-sysctl.txt)
+* [kernel](https://www.kernel.org/doc/Documentation/sysctl/kernel.txt)
