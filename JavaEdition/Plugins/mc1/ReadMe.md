@@ -28,18 +28,28 @@
    - Überprüfe Java:
      - öffne `cmd.exe`
 	 - führe den Befehl `java --version` aus, Ausgabe:
-     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_01.jpg)
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/cmd_java_version.jpg)
 
    - starte `start.cmd`, Ausgabe:
-     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_02.jpg)
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/ausgabe_start_cmd1.jpg)
 
    - bearbeite die Datei `eula.txt`
      - ändere die Zeile `eula=false` in `eula=true`
 
    - starte erneut `start.cmd`, Ausgabe:
-     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_03.jpg)
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/ausgabe_start_cmd2.jpg)
 
 ---
+
+Let's Go!
+
+- Starte IntelliJ IDEA Community Edition
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_01.jpg)
+
+- Installiere das Plugin `Minecraft Development`
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_02.jpg)
+
+
 
 
 ---
