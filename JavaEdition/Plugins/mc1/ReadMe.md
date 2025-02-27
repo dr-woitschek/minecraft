@@ -41,7 +41,7 @@
 
 ---
 
-Let's Go!
+**Let's Go!**
 
 - Starte IntelliJ IDEA Community Edition
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_01.jpg)
@@ -49,6 +49,10 @@ Let's Go!
 - Installiere das Plugin `Minecraft Development`
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_02.jpg)
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_03.jpg)
+
+- Erstelle ein neues Projekt
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_04.jpg)
+
 
 
 
