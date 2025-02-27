@@ -33,6 +33,12 @@
    - starte `start.cmd`, Ausgabe:
      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_02.jpg)
 
+   - bearbeite die Datei `eula.txt`
+   - ändere den Eintrag `eula=false` in `eula=true`
+
+   - starte erneut `start.cmd`, Ausgabe:
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_03.jpg)
+
 ---
 
 
