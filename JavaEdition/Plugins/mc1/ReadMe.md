@@ -54,8 +54,30 @@
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_04.jpg)
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_05.jpg)
 
+- Hello World Moment
+  Mit dem Befehl `org.bukkit.Bukkit.getConsoleSender().sendMessage("")` können Nachrichten in der Minecraft Server Console angezeigt werden.
+  Hier ein Beispiel:
+  ```
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("   ____  ____  ____  ____                           ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("  /\\   \\/\\   \\/\\   \\/\\   \\                  ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage(" /  \\___\\ \\___\\ \\___\\ \\___\\                 ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage(" \\  / __/_/   / /   / /   /                        ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("  \\/_/\\   \\__/\\/___/\\/___/                     ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("    /  \\___\\    /  \\___\\     Plugin Spielplatz  ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("    \\  / __/_mc_\\  /   /      von Dr. Woitschek   ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("     \\/_/\\   \\/\\ \\/___/                        ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("       /  \\__/  \\___\\         Version 1.0        ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("       \\  / _\\  /   /                             ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("        \\/_/\\ \\/___/                             ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("          /  \\___\\                                ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("          \\  /   /                                 ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("           \\/___/                                  ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("                                                    ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("         Hallo Welt !!!                             ");
+        org.bukkit.Bukkit.getConsoleSender().sendMessage("                                                    ");
 
-
+  ```
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_06.jpg)
 
 ---
 
