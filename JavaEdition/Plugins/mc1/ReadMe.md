@@ -96,6 +96,11 @@
    - starte `start.cmd`, Ausgabe:
      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/ausgabe_start_cmd3.jpg)
 
+   - Beim gestarteten Minecraft-Server kann mit dem Befehl `reload confirm` die Plugins neu geladen werden, Ausgabe:
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/ausgabe_start_cmd4.jpg)
+
+
+
 
 
 
