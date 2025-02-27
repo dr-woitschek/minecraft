@@ -80,8 +80,8 @@
     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_06.jpg)
 
  - Plugin erstellen
-   Es gibt mehrere Wege zum Ziel, siehe Screenshot:
-   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_07.jpg)
+   - Es gibt mehrere Wege zum Ziel, siehe Screenshot:
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_07.jpg)
 
 
 
