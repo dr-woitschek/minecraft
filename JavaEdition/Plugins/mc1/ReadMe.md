@@ -48,7 +48,7 @@ Let's Go!
 
 - Installiere das Plugin `Minecraft Development`
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_02.jpg)
-
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_03.jpg)
 
 
 
