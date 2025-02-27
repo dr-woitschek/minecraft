@@ -36,6 +36,9 @@
 
      ```
 
+   - starte `start.cmd`, Ausgabe:
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_01.jpg)
+
 ---
 
 
