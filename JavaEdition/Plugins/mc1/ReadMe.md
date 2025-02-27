@@ -87,8 +87,10 @@
  - Plugin kopieren und Minecraft Server starten
    - Im Ordner `~\work\mc1\target` befindet sich die Datei `<Plugin-Name>-<Plugin-Version>.jar`. Die jar-Datei kopiert man in den Ordner `~\work\mc-server\plugins`.
    - Zum Beispiel:
-     - Quelle: ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/explorer_01.jpg)
-	 - Ziel: ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/explorer_02.jpg)
+     - Quelle
+	   - ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/explorer_01.jpg)
+	 - Ziel
+	   - ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/explorer_02.jpg)
 
 ---
 
