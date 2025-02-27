@@ -99,6 +99,18 @@
    - Beim gestarteten Minecraft-Server kann mit dem Befehl `reload confirm` die Plugins neu geladen werden, Ausgabe:
      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/ausgabe_start_cmd4.jpg)
 
+---
+
+- Informationen/Warnung Ausgeben
+  - Mit dem Befehl `getLogger().info("Meldung");` bzw. `getLogger().warning("Meldung");` können Informationen bzw. Warnungen auf der Minecraft Server Console angezeigt werden.
+    Hier ein Beispiel:
+    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_09.jpg)
+
+  - Nach einem erneuten Server Restart oder einem `reload confirm` sieht man die Ausgabe:
+    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/ausgabe_start_cmd5.jpg)
+
+
+
 
 
 
