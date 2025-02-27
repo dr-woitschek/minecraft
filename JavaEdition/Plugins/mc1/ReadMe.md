@@ -34,7 +34,7 @@
      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_02.jpg)
 
    - bearbeite die Datei `eula.txt`
-   - ändere den Eintrag `eula=false` in `eula=true`
+     - ändere die Zeile `eula=false` in `eula=true`
 
    - starte erneut `start.cmd`, Ausgabe:
      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_03.jpg)
@@ -47,3 +47,4 @@
 _Weitere Informationen_
 - [https://www.jetbrains.com/de-de/](https://www.jetbrains.com/de-de/)
 - [https://papermc.io/](https://papermc.io/)
+- [https://www.minecraft.net/de-de/eula](https://www.minecraft.net/de-de/eula)
