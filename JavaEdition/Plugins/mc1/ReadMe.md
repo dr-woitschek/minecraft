@@ -92,6 +92,13 @@
 	 - Ziel `C:\Users\%username%\work\mc-server\plugins\mc1-1.0-SNAPSHOT.jar`
 	   - ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/explorer_02.jpg)
 
+ - Minecraft Server starten/reload
+   - starte `start.cmd`, Ausgabe:
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/ausgabe_start_cmd3.jpg)
+
+
+
+
 ---
 
 _Weitere Informationen_
