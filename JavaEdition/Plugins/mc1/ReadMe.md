@@ -52,6 +52,7 @@
 
 - Erstelle ein neues Projekt
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_04.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/IntelliJ_IDEA_05.jpg)
 
 
 
