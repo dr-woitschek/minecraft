@@ -28,16 +28,10 @@
    - Überprüfe Java:
      - öffne `cmd.exe`
 	 - führe den Befehl `java --version` aus, Ausgabe:
-     ```
-
-     java 22.0.2 2024-07-16
-     Java(TM) SE Runtime Environment (build 22.0.2+9-70)
-     Java HotSpot(TM) 64-Bit Server VM (build 22.0.2+9-70, mixed mode, sharing)
-
-     ```
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_01.jpg)
 
    - starte `start.cmd`, Ausgabe:
-     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_01.jpg)
+     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/mc1_02.jpg)
 
 ---
 
