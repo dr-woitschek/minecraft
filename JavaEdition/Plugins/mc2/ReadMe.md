@@ -1,5 +1,1 @@
-Minecraft Java Plugin:
-
-> `/sack`
-> `/bp`
-> `/backpack`
+**Minecraft Java Plugin**

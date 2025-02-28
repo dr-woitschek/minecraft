@@ -109,13 +109,6 @@
   - Nach einem erneuten Server Restart oder einem `reload confirm` sieht man die Ausgabe:
     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc1/Bilder/ausgabe_start_cmd5.jpg)
 
-
-
-
-
-
-
-
 ---
 
 _Weitere Informationen_
