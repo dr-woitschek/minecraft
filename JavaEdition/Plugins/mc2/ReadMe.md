@@ -56,7 +56,7 @@
    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/IntelliJ_IDEA_08.jpg)
 
 5. Erstelle die Plugin-Jar-Datei mit `Umschalt+F10` neu:
-   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/IntelliJ_IDEA_10.jpg)
+   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/IntelliJ_IDEA_09.jpg)
 
 ---
 
