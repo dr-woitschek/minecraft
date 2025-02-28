@@ -58,6 +58,13 @@
 5. Erstelle die Plugin-Jar-Datei mit `Umschalt+F10` neu:
    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/IntelliJ_IDEA_09.jpg)
 
+6. kopiere die neu erstellte Plugin-Jar-Datei in das mc-server Plugin Verzeichnis:
+   - Quelle: `C:\Users\%username%\work\mc1\target\mc1-1.0-SNAPSHOT.jar`
+   - Ziel `C:\Users\%username%\work\mc-server\plugins\mc1-1.0-SNAPSHOT.jar`
+
+7. starte den Minecraft Server neu oder benutzte den Befehl `reload confirm` um die Plugins neu zu laden
+   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/ausgabe_start_cmd1.jpg)
+
 ---
 
 _Weitere Informationen_
