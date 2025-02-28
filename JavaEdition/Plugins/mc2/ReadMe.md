@@ -65,6 +65,12 @@
 7. starte den Minecraft Server neu oder benutzte den Befehl `reload confirm` um die Plugins neu zu laden
    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/ausgabe_start_cmd1.jpg)
 
+8. Verbinde dich auf den Minecraft Server:
+   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/mc01.jpg)
+   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/mc02.jpg)
+   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/mc03.jpg)
+   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc2/Bilder/mc04.jpg)
+
 ---
 
 _Weitere Informationen_
