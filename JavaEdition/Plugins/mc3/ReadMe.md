@@ -29,7 +29,7 @@
 
 3. Code in der `Java Main Class mc1` einfügen:
    ```
-   import drwoitschek.sack.listeners.QuitListener;
+   import de.woitschek.mc1.listener.QuitListener;
    ```
 
    ```
