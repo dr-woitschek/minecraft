@@ -2,7 +2,7 @@
 
 ---
 
-**Aufbauend auf [mc1 - Hello World](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Plugins/mc1/)** und [mc2 - JoinListener](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Plugins/mc2/)**
+**Aufbauend auf [mc1 - Hello World](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Plugins/mc1/) und [mc2 - JoinListener](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Plugins/mc2/)**
 
 ---
 
