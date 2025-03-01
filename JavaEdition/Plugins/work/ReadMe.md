@@ -65,8 +65,10 @@
 	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_08.jpg)
     - Wir ändern den Namen von `unnamed` in unseren Projektnamen, hier `mc1`. Das `Output directory` ändern wir auf das Plugin-Verzeichnis unseres Servers. Zusätzlich ziehen wir das `'mc1' compile output` unter `Available Elements` nach links unter `Output Layout`.
       ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_09.jpg)
-
-
+    - Anpassen der `Run/Debug Configuration`. Hier fügen wir über das `+`-Zeichen eine `JAR Application` hinzu. Damit der Server benutzbar ist, muss der Wert bei `Path to JAR` angepasst werden, hier wählen wir die entsprechende JAR-Datei. Bei der Option `Program arguments` setzten wir den Parameter `nogui`. Die Option `Working directory` ändern wir auf den Server-Ordner.
+    - Beim Punkt `Beforce launch` fügen wir über das `+`-Zeichen ein `Build Artifacts` hinzu. Hier wählen wir unser Projekt aus.
+	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_10.jpg)
+	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_11.jpg)
 
 
 
