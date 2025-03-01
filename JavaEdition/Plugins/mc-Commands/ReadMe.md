@@ -69,6 +69,52 @@
 
 ---
 
+- `FlyCommand`-Beispiel, `Java Class` mit dem Namen `FlyCommand`:
+  ```
+  import org.bukkit.command.Command;
+  import org.bukkit.command.CommandExecutor;
+  import org.bukkit.command.CommandSender;
+  import org.bukkit.entity.Player;
+  import org.jetbrains.annotations.NotNull;
+  
+  public class FlyCommand implements CommandExecutor {
+      @Override
+      public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd,
+                               @NotNull String label, @NotNull String[] args) {
+          if(!(sender instanceof Player)) {
+              sender.sendMessage("§4Nur Spieler können diesen Befehl benutzen!");
+              return true;
+          }
+  
+          final Player player = (Player) sender;
+  
+          player.setAllowFlight(true);
+          player.setFlying(true);
+          player.sendMessage("§aDu kannst jetzt fliegen!");
+  
+          return true;
+      }
+  }
+  ```
+  Main Java Class:
+  ```
+  getCommand("fly").setExecutor(new FlyCommand());
+  ```
+
+  `plugin.yml`-Datei anpassen:
+  ```
+  fly:
+    description: Damit kann ein Spieler fliegen
+    aliases:
+      - f
+  ```
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_09.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_10.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_11.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_12.jpg)
+
+---
+
 _Weitere Informationen_
 - [https://www.jetbrains.com/de-de/](https://www.jetbrains.com/de-de/)
 - [https://papermc.io/](https://papermc.io/)
