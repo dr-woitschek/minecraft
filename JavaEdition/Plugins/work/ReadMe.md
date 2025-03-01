@@ -32,8 +32,8 @@
     
     @echo off
     set paper=paper-1.20.1-196.jar
-    set folder=C:\Users\%username%\work\server-1.20.1
-    title Minecraft Server %paper%
+    set folder=C:\Users\robert\work\server-1.20.1
+    title mc-server-%paper%
     cd \
     cd "%folder%"
     cls
@@ -49,10 +49,14 @@
     - ändere die Zeile `eula=false` in `eula=true`
   - starte erneut `start.cmd`, Ausgabe:
     ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/ausgabe_start_cmd2.jpg)
+  - mit dem Befehl `stop` wird der Server wieder beendet
 
 - Erstelle ein neues Projekt
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_04.jpg)
 
+- Minecraft Server in das IntelliJ IDEA Community Edition integrieren
+  - ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_05.jpg)
+  - ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_06.jpg)
 
 
 ---
