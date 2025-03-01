@@ -22,7 +22,37 @@
 
 **Erste Schritte**
 
+- Minecraft Server erstellen
+  - öffne `cmd.exe`
+  - erstelle einen Server-Ordner `mkdir C:\Users\%username%\work\server-1.20.1`
+  - kopiere die Datei `paper-<versionsnummer>.jar` nach `C:\Users\%username%\work\server-1.20.1`
+  - erstelle im Ordner `C:\Users\%username%\work\server-1.20.1` die Datei `start.cmd`
+  - Inhalt der Datei `start.cmd`:
+    ```
+    
+    @echo off
+    set paper=paper-1.20.1-196.jar
+    set folder=C:\Users\%username%\work\server-1.20.1
+    title Minecraft Server %paper%
+    cd \
+    cd "%folder%"
+    cls
+    java -jar %paper% --nogui
+    pause
+    
+    ```
+  - führe den Befehl `java --version` aus, Ausgabe:
+    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/cmd_java_version.jpg)
+  - starte `start.cmd`, Ausgabe:
+    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/ausgabe_start_cmd1.jpg)
+  - bearbeite die Datei `eula.txt`
+    - ändere die Zeile `eula=false` in `eula=true`
+  - starte erneut `start.cmd`, Ausgabe:
+    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/ausgabe_start_cmd2.jpg)
+
 - Erstelle ein neues Projekt
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_04.jpg)
+
 
 
 ---
