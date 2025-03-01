@@ -63,6 +63,21 @@
 	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_07.jpg)
     - Im Punkt `Artifatcs` drücken wir das `+`-Zeichen
 	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_08.jpg)
+    - Wir ändern den Namen von `unnamed` in unseren Projektnamen, hier `mc1`. Zusätzlich ziehen wir das `'mc1' compile output` unter `Available Elements` nach links unter `Output Layout`.
+      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_09.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
