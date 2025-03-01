@@ -69,21 +69,16 @@
     - Beim Punkt `Beforce launch` fügen wir über das `+`-Zeichen ein `Build Artifacts` hinzu. Hier wählen wir unser Projekt aus.
 	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_10.jpg)
 	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_11.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - Finaler Test
+    - durch `Umschalt+F10` oder das drücken der `Play`-Taste wird das Projekt zu einer Jar-Datei gebaut und der Minecraft Server gestartet.
+      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_12.jpg)
+    - In unserem Minecraft Launcher muss ich die entsprechende Version installieren und danach kann ich Minecraft starten. Die derzeitige Version ist `1.20.1`.
+      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/mc01.jpg)
+	- Wir fügen einen neuen Server hinzu, Serveradresse `127.0.0.1`.
+	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/mc02.jpg)
+      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/mc03.jpg)
+    - Jetzt können wir unserem Server beitreten
+      ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/mc04.jpg)
 
 ---
 
