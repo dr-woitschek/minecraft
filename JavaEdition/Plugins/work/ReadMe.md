@@ -55,8 +55,17 @@
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_04.jpg)
 
 - Minecraft Server in das IntelliJ IDEA Community Edition integrieren
-  - ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_05.jpg)
-  - ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_06.jpg)
+  - per Drag&Drop ziehen wir aus dem Windows Explorer den erstellten Minecraft Server Ordner in die IntelliJ IDEA Community Edition hinein.
+    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_05.jpg)
+    ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_06.jpg)
+  - jetzt verändern wir die Projektstruktur
+    - über das `Zahnrad` oder `Strg+Alt+Umschalt+S`
+	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_07.jpg)
+    - Im Punkt `Artifatcs` drücken wir das `+`-Zeichen
+	  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/work/Bilder/IntelliJ_IDEA_08.jpg)
+
+
+
 
 
 ---
