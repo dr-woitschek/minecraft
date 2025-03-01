@@ -104,6 +104,7 @@
 
   `plugin.yml`-Datei anpassen:
   ```
+  ...
   fly:
     description: Damit kann ein Spieler fliegen
     aliases:
@@ -171,6 +172,7 @@
 
   `plugin.yml`-Datei anpassen:
   ```
+  ...
   health:
     description: Deine Gesundheit ist uns wichtig!
     aliases:
