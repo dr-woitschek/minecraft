@@ -8,7 +8,59 @@
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_01.jpg)
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_02.jpg)
 
+- In die neu erstellte Java Class Info fügen wir jetzt nachfolgenden Code hinzu:
+  ```
+  import org.bukkit.command.Command;
+  import org.bukkit.command.CommandExecutor;
+  import org.bukkit.command.CommandSender;
+  import org.bukkit.command.ConsoleCommandSender;
+  import org.jetbrains.annotations.NotNull;
+  
+  public class Info implements CommandExecutor {
+      @Override
+      public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd,
+                               @NotNull String label, @NotNull String[] args) {
+          if(sender instanceof ConsoleCommandSender) {
+              sender.sendMessage("Der Befehl wurde auf den Console ausgefürt!");
+              return true;
+          }
+  
+          if(sender.hasPermission("info")) {
+              sender.sendMessage("Der Befehl wurde mit der richtigen Berechtigung ausgeführt!");
+              return true;
+          }
+  
+          sender.sendMessage("§4Diesen Befehl darfst du nicht ausführen!");
+          return true;
+      }
+  }
+  ```
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_03.jpg)
 
+- In unserer Main Java Class müssen wir den Befehl registrieren. Hierzu benötigen wir nachfolgenden Befehl:
+  ```
+  getCommand("info").setExecutor(new Info());
+  ```
+
+  Der entsprechender `import`-Befehl darf nicht fehlen:
+  ```
+  import dr.woitschek.mc1.commands.Info;
+  ```
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_04.jpg)
+
+  Zusätzlich müssen wir noch die Datei `plugin.yml` anpassen:
+  ```
+  commands:
+    info:
+      description: Eine Information
+      aliases:
+        - information
+        - i
+  ```
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_05.jpg)
+
+- Über den `Play`-Button können wir das Testen
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_06.jpg)
 
 ---
 
