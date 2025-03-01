@@ -21,12 +21,12 @@
       public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd,
                                @NotNull String label, @NotNull String[] args) {
           if(sender instanceof ConsoleCommandSender) {
-              sender.sendMessage("Der Befehl wurde auf den Console ausgefürt!");
+              sender.sendMessage("§3Du bist die Console!");
               return true;
           }
   
           if(sender.hasPermission("info")) {
-              sender.sendMessage("Der Befehl wurde mit der richtigen Berechtigung ausgeführt!");
+              sender.sendMessage("§6Eine Information");
               return true;
           }
   
@@ -61,6 +61,11 @@
 
 - Über den `Play`-Button können wir das Testen
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_06.jpg)
+
+- Als Spieler sieht das so aus:
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_07.jpg)
+  Per Console kann ich dem Spieler `op`-Berechtigung geben:
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_08.jpg)
 
 ---
 
