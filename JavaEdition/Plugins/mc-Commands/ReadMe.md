@@ -4,6 +4,12 @@
 
 **Commands**
 
+[commands.Info](#commands.Info)
+[commands.FlyCommand](#commands.FlyCommand)
+
+---
+
+<a name="commands.Info"></a>
 - Wir fügen eine `Java Class` mit dem Namen `commands.Info` hinzu.
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_01.jpg)
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_02.jpg)
@@ -69,6 +75,7 @@
 
 ---
 
+<a name="commands.FlyCommand"></a>
 - `FlyCommand`-Beispiel, `Java Class` mit dem Namen `FlyCommand`:
   ```
   import org.bukkit.command.Command;
