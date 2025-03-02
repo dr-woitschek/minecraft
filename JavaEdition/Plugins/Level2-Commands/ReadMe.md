@@ -6,6 +6,7 @@
 - [commands.Info](#commands.Info)
 - [commands.FlyCommand](#commands.FlyCommand)
 - [commands.HealthScaleCommand](#commands.HealthScaleCommand)
+- [commands.DingeCommand](#commands.DingeCommand)
 
 ---
 
@@ -189,6 +190,72 @@
   ```
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_13.jpg)
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_14.jpg)
+
+---
+
+<a name="commands.DingeCommand"></a>
+- `Gesundheit`-Beispiel, `Java Class` mit dem Namen `HealthScaleCommand`:
+  ```
+  import org.bukkit.Material;
+  import org.bukkit.command.Command;
+  import org.bukkit.command.CommandExecutor;
+  import org.bukkit.command.CommandSender;
+  import org.bukkit.enchantments.Enchantment;
+  import org.bukkit.entity.Player;
+  import org.bukkit.inventory.ItemStack;
+  import org.bukkit.inventory.meta.ItemMeta;
+  import org.jetbrains.annotations.NotNull;
+  
+  import java.util.ArrayList;
+  import java.util.List;
+  
+  public class DingeCommand implements CommandExecutor {
+  
+      @Override
+      public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command,
+                               @NotNull String label, String[] args) {
+  
+          if (sender instanceof Player player){
+  
+              ItemStack ding1 = new ItemStack(Material.SPONGE, 2);
+              player.getInventory().setItem(1, ding1);
+  
+              ItemStack ding2 = new ItemStack(Material.COOKED_CHICKEN, 17);
+              player.getInventory().setItem(1, ding2);
+  
+              ItemStack verzaubertesItem = new ItemStack(Material.CACTUS, 1);
+              ItemMeta verzaubertesItemMeta = verzaubertesItem.getItemMeta();
+              verzaubertesItemMeta.setDisplayName("Der Verzauberte Kaktus");
+  
+              List<String> verzaubertesItemLore = new ArrayList<>();
+              verzaubertesItemLore.add(";)");
+              verzaubertesItemLore.add("Der piekst dich echt!");
+              verzaubertesItemLore.add("^oo^");
+              verzaubertesItemMeta.setLore(verzaubertesItemLore);
+  
+              verzaubertesItemMeta.addEnchant(Enchantment.KNOCKBACK, 1000, true);
+  
+              verzaubertesItem.setItemMeta(verzaubertesItemMeta);
+              player.getInventory().addItem(verzaubertesItem);
+  
+          }
+          return true;
+      }
+  }
+  ```
+
+  Main Java Class:
+  ```
+  getCommand("dinge").setExecutor(new DingeCommand());
+  ```
+
+  `plugin.yml`-Datei anpassen:
+  ```
+  ...
+  dinge:
+    description: Items geben lassen
+
+  ```
 
 ---
 
