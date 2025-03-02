@@ -28,14 +28,14 @@
       org.bukkit.Bukkit.getConsoleSender().sendMessage("                                                    ");
   }
   ```
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Hello-World/Bilder/IntelliJ_IDEA_01.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level1-Hello-World/Bilder/IntelliJ_IDEA_01.jpg)
 
 - Über den `Play`-Button können wir das Testen
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Hello-World/Bilder/IntelliJ_IDEA_02.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level1-Hello-World/Bilder/IntelliJ_IDEA_02.jpg)
 
 - Die Befehle `getLogger().info("Text");` bzw. `getLogger().warning("Text");` zeigen Info- bzw. Warn-Meldungen an.
   Hier ein Beispiel:
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Hello-World/Bilder/IntelliJ_IDEA_03.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level1-Hello-World/Bilder/IntelliJ_IDEA_03.jpg)
 
 ---
 
