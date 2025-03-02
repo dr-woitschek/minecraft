@@ -331,7 +331,7 @@
       }
   }
   ```
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Backpack/Bilder/IntelliJ_IDEA_01.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level5-Backpack/Bilder/IntelliJ_IDEA_01.jpg)
 
 ---
 
