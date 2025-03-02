@@ -11,8 +11,8 @@
 
 <a name="commands.Info"></a>
 - Wir fügen eine `Java Class` mit dem Namen `commands.Info` hinzu.
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_01.jpg)
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_02.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_01.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_02.jpg)
 
 - In die neu erstellte Java Class Info fügen wir jetzt nachfolgenden Code hinzu:
   ```
@@ -41,7 +41,7 @@
       }
   }
   ```
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_03.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_03.jpg)
 
 - In unserer Main Java Class müssen wir den Befehl registrieren. Hierzu benötigen wir nachfolgenden Befehl:
   ```
@@ -52,7 +52,7 @@
   ```
   import dr.woitschek.mc1.commands.Info;
   ```
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_04.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_04.jpg)
 
   Zusätzlich müssen wir noch die Datei `plugin.yml` anpassen:
   ```
@@ -63,15 +63,15 @@
         - information
         - i
   ```
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_05.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_05.jpg)
 
 - Über den `Play`-Button können wir das Testen
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_06.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_06.jpg)
 
 - Als Spieler sieht das so aus:
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_07.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_07.jpg)
   Per Console kann ich dem Spieler `op`-Berechtigung geben:
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_08.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_08.jpg)
 
 ---
 
@@ -117,10 +117,10 @@
     aliases:
       - f
   ```
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_09.jpg)
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_10.jpg)
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_11.jpg)
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_12.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_09.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_10.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_11.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_12.jpg)
 
 ---
 
@@ -187,8 +187,8 @@
       - healthcare
       - gesundheit
   ```
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_13.jpg)
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-Commands/Bilder/IntelliJ_IDEA_14.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_13.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level2-Commands/Bilder/IntelliJ_IDEA_14.jpg)
 
 ---
 
