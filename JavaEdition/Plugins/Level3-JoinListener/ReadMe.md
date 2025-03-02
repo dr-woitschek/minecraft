@@ -21,7 +21,7 @@
       }
   }
   ```
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-JoinListener/Bilder/IntelliJ_IDEA_01.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level3-JoinListener/Bilder/IntelliJ_IDEA_01.jpg)
 
 - In unserer Main Java Class müssen wir den `JoinListener` registrieren.<br/>Hierzu benötigen wir nachfolgenden Zeilen:
   ```
@@ -33,10 +33,10 @@
   ```
   import dr.woitschek.mc1.listener.JoinListener;
   ```
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-JoinListener/Bilder/IntelliJ_IDEA_02.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level3-JoinListener/Bilder/IntelliJ_IDEA_02.jpg)
 
 - Über den `Play`-Button können wir das Testen
-  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-JoinListener/Bilder/IntelliJ_IDEA_03.jpg)
+  ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/Level3-JoinListener/Bilder/IntelliJ_IDEA_03.jpg)
 
 ---
 
