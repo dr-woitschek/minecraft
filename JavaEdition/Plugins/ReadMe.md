@@ -2,7 +2,7 @@
 
 ---
 
-* [Grundlage / Work](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Plugins/grundlage-work/)
+* [Grundlage / Work](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Plugins/Grundlage-Work/)
 * [Level 1 Hello World](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Plugins/Level1-Hello-World/)
 * [Level 2 Commands](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Plugins/Level2-Commands/)
 * [Level 3 JoinListener](https://github.com/dr-woitschek/minecraft/tree/main/JavaEdition/Plugins/Level3-JoinListener/)
