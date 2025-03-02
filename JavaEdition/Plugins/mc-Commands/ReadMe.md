@@ -3,8 +3,8 @@
 ---
 
 **Commands**
-- [commands.Info](#commands.Info)\
-- [commands.FlyCommand](#commands.FlyCommand)\
+- [commands.Info](#commands.Info)
+- [commands.FlyCommand](#commands.FlyCommand)
 - [commands.HealthScaleCommand](#commands.HealthScaleCommand)
 
 ---
