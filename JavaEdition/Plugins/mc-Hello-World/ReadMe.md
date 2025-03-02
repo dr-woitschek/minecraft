@@ -4,7 +4,7 @@
 
 **Hello World**
 
-- Über den Befehl `org.bukkit.Bukkit.getConsoleSender().sendMessage("Text");` können wir Meldungen auf der Konsole ausgeben. Wir fügen den Befehl in den Bereich `public void onEnable()` ein. Dieser wird beim laden des Plugins abgearbeitet.
+- Über den Befehl `org.bukkit.Bukkit.getConsoleSender().sendMessage("Text");` können wir Meldungen auf der Konsole ausgeben.<br/>Wir fügen den Befehl in den Bereich `public void onEnable()` ein.<br/>Dieser wird beim laden des Plugins abgearbeitet.
   Hier ein Beispiel:
   ```
   public void onEnable() {
