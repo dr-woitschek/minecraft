@@ -32,7 +32,7 @@
     
     @echo off
     set paper=paper-1.20.1-196.jar
-    set folder=C:\Users\robert\work\server-1.20.1
+    set folder=C:\Users\%username%\work\server-1.20.1
     title mc-server-%paper%
     cd \
     cd "%folder%"
