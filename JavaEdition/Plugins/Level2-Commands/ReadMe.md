@@ -194,7 +194,7 @@
 ---
 
 <a name="commands.DingeCommand"></a>
-- `Gesundheit`-Beispiel, `Java Class` mit dem Namen `HealthScaleCommand`:
+- `Dinge`-Beispiel, `Java Class` mit dem Namen `commands.DingeCommand`:
   ```
   import org.bukkit.Material;
   import org.bukkit.command.Command;
