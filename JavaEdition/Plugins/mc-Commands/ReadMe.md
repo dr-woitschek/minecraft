@@ -3,9 +3,9 @@
 ---
 
 **Commands**
-
-[commands.Info](#commands.Info)
-[commands.FlyCommand](#commands.FlyCommand)
+- [commands.Info](#commands.Info)\
+- [commands.FlyCommand](#commands.FlyCommand)\
+- [commands.HealthScaleCommand](#commands.HealthScaleCommand)
 
 ---
 
@@ -124,6 +124,7 @@
 
 ---
 
+<a name="commands.HealthScaleCommand"></a>
 - `Gesundheit`-Beispiel, `Java Class` mit dem Namen `HealthScaleCommand`:
   ```
   import org.apache.commons.lang3.StringUtils;
