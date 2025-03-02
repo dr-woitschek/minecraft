@@ -7,6 +7,12 @@
 - Wir fügen eine `Java Class` mit dem Namen `backpack.Backpack` hinzu.
 - In die neu erstellte Java Class fügen wir jetzt nachfolgenden Code hinzu:
   ```
+  import org.bukkit.Bukkit;
+  import org.bukkit.inventory.Inventory;
+  import dr.woitschek.mc1.utils.Base64;
+  import java.io.IOException;
+  import java.util.UUID;
+  
   public class Backpack {
       private final UUID uuid;
       private final Inventory inventory;
@@ -39,6 +45,13 @@
 - Wir fügen eine `Java Class` mit dem Namen `backpack.BackpackManager` hinzu.
 - In die neu erstellte Java Class fügen wir jetzt nachfolgenden Code hinzu:
   ```
+  import org.bukkit.inventory.ItemStack;
+  import dr.woitschek.mc1.Mc1;
+  import dr.woitschek.mc1.utils.Base64;
+  import dr.woitschek.mc1.utils.Config;
+  import java.io.IOException;
+  import java.util.*;
+  
   public class BackpackManager {
       private final Map<UUID, Backpack> map;
   
@@ -97,6 +110,13 @@
 - Wir fügen eine `Java Class` mit dem Namen `commands.SackCommand` hinzu.
 - In die neu erstellte Java Class fügen wir jetzt nachfolgenden Code hinzu:
   ```
+  import org.bukkit.inventory.ItemStack;
+  import dr.woitschek.mc1.Mc1;
+  import dr.woitschek.mc1.utils.Base64;
+  import dr.woitschek.mc1.utils.Config;
+  import java.io.IOException;
+  import java.util.*;
+  
   public class SackCommand implements CommandExecutor {
   
       @Override
@@ -119,6 +139,15 @@
 - Wir fügen eine `Java Class` mit dem Namen `utils.Base64` hinzu.
 - In die neu erstellte Java Class fügen wir jetzt nachfolgenden Code hinzu:
   ```
+  import org.bukkit.inventory.ItemStack;
+  import org.bukkit.util.io.BukkitObjectInputStream;
+  import org.bukkit.util.io.BukkitObjectOutputStream;
+  import org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder;
+  
+  import java.io.ByteArrayInputStream;
+  import java.io.ByteArrayOutputStream;
+  import java.io.IOException;
+  
   public class Base64 {
       public static ItemStack[] itemStackArrayFromBase64(String data) throws IOException {
           try {
@@ -164,6 +193,11 @@
 - Wir fügen eine `Java Class` mit dem Namen `utils.Config` hinzu.
 - In die neu erstellte Java Class fügen wir jetzt nachfolgenden Code hinzu:
   ```
+  import org.bukkit.configuration.file.YamlConfiguration;
+  
+  import java.io.File;
+  import java.io.IOException;
+  
   public class Config {
   
       private final File file;
@@ -208,6 +242,18 @@
 
 - Unsere Main `Java Class` muss mit nachfolgenden Code ergänzt werden, hier einfach alles:
   ```
+  import dr.woitschek.mc1.backpack.BackpackManager;
+  import dr.woitschek.mc1.commands.FlyCommand;
+  import dr.woitschek.mc1.commands.HealthScaleCommand;
+  import dr.woitschek.mc1.commands.Info;
+  import dr.woitschek.mc1.commands.SackCommand;
+  import dr.woitschek.mc1.listener.JoinListener;
+  import dr.woitschek.mc1.listener.QuitListener;
+  import dr.woitschek.mc1.utils.Config;
+  import org.bukkit.Bukkit;
+  import org.bukkit.plugin.java.JavaPlugin;
+  import org.bukkit.plugin.PluginManager;
+  
   public final class Mc1 extends JavaPlugin {
   
       private static Mc1 instance;
