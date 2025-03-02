@@ -24,7 +24,7 @@
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-QuitListener/Bilder/IntelliJ_IDEA_01.jpg)
 
 
-- In unserer Main Java Class müssen wir den `JoinListener` registrieren. Hierzu benötigen wir nachfolgenden Zeilen:
+- In unserer Main Java Class müssen wir den `JoinListener` registrieren.<br/>Hierzu benötigen wir nachfolgenden Zeilen:
   ```
   pluginManager.registerEvents(new QuitListener(), this);
   ```
