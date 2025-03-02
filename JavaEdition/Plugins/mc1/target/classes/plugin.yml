@@ -1,0 +1,26 @@
+name: mc1
+version: '1.0-SNAPSHOT'
+main: dr.woitschek.mc1.Mc1
+api-version: '1.20'
+
+commands:
+  info:
+    description: Eine Information
+    aliases:
+      - information
+      - i
+  fly:
+    description: Damit kann ein Spieler fliegen
+    aliases:
+      - f
+  health:
+    description: Deine Gesundheit ist uns wichtig!
+    aliases:
+      - healthcare
+      - gesundheit
+  sack:
+    description: Ein Rucksack
+    aliases:
+      - rucksack
+      - backpack
+      - bp
