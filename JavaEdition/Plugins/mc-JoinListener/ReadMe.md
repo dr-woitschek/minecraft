@@ -23,7 +23,7 @@
   ```
   ![Screenshot](https://github.com/dr-woitschek/minecraft/blob/main/JavaEdition/Plugins/mc-JoinListener/Bilder/IntelliJ_IDEA_01.jpg)
 
-- In unserer Main Java Class müssen wir den `JoinListener` registrieren. Hierzu benötigen wir nachfolgenden Zeilen:
+- In unserer Main Java Class müssen wir den `JoinListener` registrieren.<br/>Hierzu benötigen wir nachfolgenden Zeilen:
   ```
   PluginManager pluginManager = Bukkit.getPluginManager();
   pluginManager.registerEvents(new JoinListener(), this);
