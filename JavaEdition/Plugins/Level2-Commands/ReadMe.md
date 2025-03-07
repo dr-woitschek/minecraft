@@ -221,7 +221,7 @@
               player.getInventory().setItem(1, ding1);
   
               ItemStack ding2 = new ItemStack(Material.COOKED_CHICKEN, 17);
-              player.getInventory().setItem(1, ding2);
+              player.getInventory().setItem(2, ding2);
   
               ItemStack verzaubertesItem = new ItemStack(Material.CACTUS, 1);
               ItemMeta verzaubertesItemMeta = verzaubertesItem.getItemMeta();
